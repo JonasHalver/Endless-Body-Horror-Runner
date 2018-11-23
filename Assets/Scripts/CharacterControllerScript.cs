@@ -12,7 +12,7 @@ public class CharacterControllerScript : MonoBehaviour {
     private float jump;
 
     private Collider2D col;
-    private bool isAirborne = false;
+    public bool isAirborne = false;
 
     private Vector2 upGravity = new Vector2 (0, 9.81f);
     private Vector2 downGravity = new Vector2 (0, -9.81f);
@@ -35,36 +35,36 @@ public class CharacterControllerScript : MonoBehaviour {
             {
             if (!isAirborne)
                 {
-                rb.AddForce(new Vector2(0, jump), ForceMode2D.Impulse);
+                rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
                 //isAirborne = true;
                 }
             }
-
-        if (!recentFlip)
-            {
-            if (Input.GetKeyDown("up"))
-                {
-                gravityReverse = true;
-                recentFlip = true;
-                }
-
-            if (Input.GetKeyDown("down"))
-                {
-                gravityReverse = false;
-                recentFlip = true;
-                }
-            }
-
-        if (gravityReverse)
-            {
-            jump = negativeJump;
-            Physics2D.gravity = upGravity;
-            }
-        if (!gravityReverse)
-            {
-            jump = jumpForce;
-            Physics2D.gravity = downGravity;
-            }
+          //Gravity Flipper 
+        //if (!recentFlip)
+        //    {
+        //    if (Input.GetKeyDown("up"))
+        //        {
+        //        gravityReverse = true;
+        //        recentFlip = true;
+        //        }
+        //
+        //    if (Input.GetKeyDown("down"))
+        //        {
+        //        gravityReverse = false;
+        //        recentFlip = true;
+        //        }
+        //    }
+        //
+        //if (gravityReverse)
+        //    {
+        //    jump = negativeJump;
+        //    Physics2D.gravity = upGravity;
+        //    }
+        //if (!gravityReverse)
+        //    {
+        //    jump = jumpForce;
+        //    Physics2D.gravity = downGravity;
+        //    }
         }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -15,7 +15,11 @@ AudioMixerController:
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters: []
-  m_AudioMixerGroupViews: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 4bd542cde702fb543b21f701cbc21d53
+    - 2f34635be60076e42849d20571bddc09
+    name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
 --- !u!243 &24300002
@@ -26,7 +30,8 @@ AudioMixerGroupController:
   m_Name: Master
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 4bd542cde702fb543b21f701cbc21d53
-  m_Children: []
+  m_Children:
+  - {fileID: 243994653977098056}
   m_Volume: cb8f2803a8c243a44bdfa695c021938a
   m_Pitch: c6cfa253c0c78414480cc5a451b32c7d
   m_Effects:
@@ -58,3 +63,33 @@ AudioMixerSnapshotController:
   m_SnapshotID: 36f2c6ff6d51548478912221d1da8046
   m_FloatValues: {}
   m_TransitionOverrides: {}
+--- !u!243 &243994653977098056
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Microphone
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 2f34635be60076e42849d20571bddc09
+  m_Children: []
+  m_Volume: 07598fa65f8423d4a9d15309eeaf87a9
+  m_Pitch: c9a3a4be9daa07748bc03bf818861647
+  m_Effects:
+  - {fileID: 244314981182994446}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &244314981182994446
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: 464061434e4cc9a46a37f5f6599902fb
+  m_EffectName: Attenuation
+  m_MixLevel: ced87cb54f0d46d40bef2e3d2f3eb451
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0

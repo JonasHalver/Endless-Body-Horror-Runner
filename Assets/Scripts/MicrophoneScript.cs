@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.Windows.Speech;
+using System.Linq;
 
 public class MicrophoneScript : MonoBehaviour {
 
@@ -16,7 +18,14 @@ public class MicrophoneScript : MonoBehaviour {
     public static float volume;
     public float sensitivity = 10;
 
-	void Start () {
+    public Camera cam;
+
+    KeywordRecognizer keywordRecognizer;
+    Dictionary<string, System.Action> keywords = new Dictionary<string, System.Action>();
+    public Color blue;
+    public Color red;
+
+    void Start () {
         micName = Microphone.devices[0].ToString();
         audioSource = gameObject.GetComponent<AudioSource>();
 
@@ -24,7 +33,21 @@ public class MicrophoneScript : MonoBehaviour {
         while (!(Microphone.GetPosition(null) > 0)) { }
         audioSource.Play();
         audioSource.outputAudioMixerGroup = mixMic;
-	}
+
+        //Create keywords for keyword recognizer
+        keywords.Add("red", () =>
+        {
+            cam.backgroundColor = red;
+        });
+        keywords.Add("blue", () =>
+        {
+            cam.backgroundColor = blue;
+        });
+        keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
+        keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
+
+        keywordRecognizer.Start();
+        }
 	
 	// Update is called once per frame
 	void Update () {
@@ -43,4 +66,14 @@ public class MicrophoneScript : MonoBehaviour {
             }
         return level / samples;
         }
-}
+
+    private void KeywordRecognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)
+        {
+        System.Action keywordAction;
+        // if the keyword recognized is in our dictionary, call that Action.
+        if (keywords.TryGetValue(args.text, out keywordAction))
+            {
+            keywordAction.Invoke();
+            }
+        }
+    }
