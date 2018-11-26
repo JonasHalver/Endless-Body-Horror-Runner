@@ -1,7 +1,39 @@
 fileFormatVersion: 2
 guid: 108409e3b3b8d64488272110960e8601
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: streaminggame_spritesheet_pinkcloud 1_0
+    21300002: streaminggame_spritesheet_pinkcloud 1_1
+    21300004: streaminggame_spritesheet_pinkcloud 1_2
+    21300006: streaminggame_spritesheet_pinkcloud 1_3
+    21300008: streaminggame_spritesheet_pinkcloud 1_4
+    21300010: streaminggame_spritesheet_pinkcloud 1_5
+    21300012: streaminggame_spritesheet_pinkcloud 1_6
+    21300014: streaminggame_spritesheet_pinkcloud 1_7
+    21300016: streaminggame_spritesheet_pinkcloud 1_8
+    21300018: streaminggame_spritesheet_pinkcloud 1_9
+    21300020: streaminggame_spritesheet_pinkcloud 1_10
+    21300022: streaminggame_spritesheet_pinkcloud 1_11
+    21300024: streaminggame_spritesheet_pinkcloud 1_12
+    21300026: streaminggame_spritesheet_pinkcloud 1_13
+    21300028: streaminggame_spritesheet_pinkcloud 1_14
+    21300030: streaminggame_spritesheet_pinkcloud 1_15
+    21300032: streaminggame_spritesheet_pinkcloud 1_16
+    21300034: streaminggame_spritesheet_pinkcloud 1_17
+    21300036: streaminggame_spritesheet_pinkcloud 1_18
+    21300038: streaminggame_spritesheet_pinkcloud 1_19
+    21300040: streaminggame_spritesheet_pinkcloud 1_20
+    21300042: streaminggame_spritesheet_pinkcloud 1_21
+    21300044: streaminggame_spritesheet_pinkcloud 1_22
+    21300046: streaminggame_spritesheet_pinkcloud 1_23
+    21300048: streaminggame_spritesheet_pinkcloud 1_24
+    21300050: streaminggame_spritesheet_pinkcloud 1_25
+    21300052: streaminggame_spritesheet_pinkcloud 1_26
+    21300054: streaminggame_spritesheet_pinkcloud 1_27
+    21300056: streaminggame_spritesheet_pinkcloud 1_28
+    21300058: streaminggame_spritesheet_pinkcloud 1_29
+    21300060: streaminggame_spritesheet_pinkcloud 1_30
+    21300062: streaminggame_spritesheet_pinkcloud 1_31
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -102,13 +134,686 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_0
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 3611
+        width: 730
+        height: 1820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33e48a2a50ce6b48829d5e2d668970a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_1
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 3602
+        width: 826
+        height: 1829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40bcb3207ceab24589446a98efff94a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_2
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3585
+        width: 536
+        height: 1820
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018bb5515d3562d4694bd439c8b6913e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_3
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 3602
+        width: 554
+        height: 1847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119b81c98a4935c448c8a745885b2145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_4
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 3594
+        width: 545
+        height: 1829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d8f036f34cfe24fa3af02bcd406b10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_5
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 3611
+        width: 527
+        height: 1812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0057922a2cd6a4d8a49349a25cb0c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_6
+      rect:
+        serializedVersion: 2
+        x: 4175
+        y: 3611
+        width: 554
+        height: 1794
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c948bae83885e2d40acc844f893f0e2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_7
+      rect:
+        serializedVersion: 2
+        x: 4773
+        y: 3602
+        width: 536
+        height: 1812
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b0d47fe535bd84e828e253fbbfb7ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_8
+      rect:
+        serializedVersion: 2
+        x: 5414
+        y: 3602
+        width: 563
+        height: 1829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41da3f7d2d887904f842867607ae5110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_9
+      rect:
+        serializedVersion: 2
+        x: 6065
+        y: 3602
+        width: 598
+        height: 1821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228e96eb5c4ef2b4589c7323681001eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_10
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2846
+        width: 1003
+        height: 563
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8258757d7c3905d4aa758574ecd5f023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_11
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2794
+        width: 1038
+        height: 580
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a270267bc90f3534eaa646079494979b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_12
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 2820
+        width: 993
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51b49e25da59fa4b9c219991ed759a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_13
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 2785
+        width: 976
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72830662090e7b249aa5611b9527ad0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_14
+      rect:
+        serializedVersion: 2
+        x: 4685
+        y: 2802
+        width: 1011
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1df6861bc662e40911fa547cd63366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_15
+      rect:
+        serializedVersion: 2
+        x: 5757
+        y: 2785
+        width: 976
+        height: 518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc5941fc30d5414c908919de030d1b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_16
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2213
+        width: 959
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f04fc242cecb324da7f17dc4a3d7f6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_17
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 2204
+        width: 968
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a1a16ab0a068a4a86a610be2cfb433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_18
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 2204
+        width: 985
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d1b4d079fd1f4bb5501abfe99577a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_19
+      rect:
+        serializedVersion: 2
+        x: 3295
+        y: 2213
+        width: 1003
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0a2c2a611314c46a9b8e3216a87949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_20
+      rect:
+        serializedVersion: 2
+        x: 4781
+        y: 2310
+        width: 440
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5692c17f11a5a4aad33a8dbe6302a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_21
+      rect:
+        serializedVersion: 2
+        x: 5265
+        y: 2275
+        width: 387
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9a194ea7b859c42ab65681820d24d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1475
+        width: 1635
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f87b104a1de654a9a099e1771a0e5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_23
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1404
+        width: 1635
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a88f9e265542345879f6c4e9f88f68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_24
+      rect:
+        serializedVersion: 2
+        x: 3603
+        y: 1483
+        width: 1636
+        height: 510
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed0bcbcfaec60043959d5da861854a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_25
+      rect:
+        serializedVersion: 2
+        x: 5309
+        y: 1475
+        width: 1635
+        height: 536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e41fe4b71db104c8454127594aa4a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_26
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 815
+        width: 1653
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a10b4eeadae6441993ccba86d915bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_27
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 798
+        width: 1636
+        height: 501
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a25a1c2eec171041847db1985abb0cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_28
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 806
+        width: 1662
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b509f19b1710a4d969ef3706cf5d7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_29
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 806
+        width: 1644
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36daee469574774ca53b3a29fb5dcd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_30
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 264
+        width: 1688
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c88b01cab4ace6489297123089c8108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streaminggame_spritesheet_pinkcloud 1_31
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 237
+        width: 1670
+        height: 519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c8099cf2343d842892b89bae8d09a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d2975ab141c80974f8b2f4d3a6c3b3fd
     vertices: []
     indices: 
     edges: []
