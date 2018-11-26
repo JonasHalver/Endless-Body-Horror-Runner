@@ -143,9 +143,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a587a75cb2fc2745bf33c2e63d03054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usePhysics: 0
   movementSpeed: 10
   maxSpeed: 5
   jumpForce: 5
+  airMovementMod: 2
+  isAirborne: 0
+  unMoving: 1
 --- !u!212 &1574416
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -224,7 +228,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1574419
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -787,6 +791,9 @@ MonoBehaviour:
   mixMic: {fileID: 243994653977098056, guid: 636e743ede508864280bee0327ce3922, type: 2}
   master: {fileID: 0}
   sensitivity: 10
+  cam: {fileID: 0}
+  blue: {r: 0, g: 0, b: 0, a: 0}
+  red: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1438921583
 GameObject:
   m_ObjectHideFlags: 0

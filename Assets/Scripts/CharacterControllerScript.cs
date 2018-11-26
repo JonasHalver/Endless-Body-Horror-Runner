@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class CharacterControllerScript : MonoBehaviour {
 
+    public bool usePhysics = true;
+
     private Rigidbody2D rb;
     public float movementSpeed = 10;
     public float maxSpeed = 5;
     public float jumpForce = 5f;
     private float negativeJump;
     private float jump;
+    public float airMovementMod = 2f;
+    private float msHolder; 
 
     private Collider2D col;
     public bool isAirborne = false;
@@ -23,48 +27,59 @@ public class CharacterControllerScript : MonoBehaviour {
         rb = gameObject.GetComponent<Rigidbody2D>();
         negativeJump = jumpForce * -1;
         col = gameObject.GetComponent<Collider2D>();
+        msHolder = movementSpeed;
 	}
 
+    private void Update()
+        {
+        if (!usePhysics)
+            {
+                  
+            Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
+            transform.Translate(movement * (movementSpeed * Time.deltaTime));
+
+            if (Input.GetButtonDown("Jump"))
+                {
+                if (!isAirborne)
+                    {
+                    rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+                    //isAirborne = true;
+                    //Jump();
+                    }
+                }
+
+           if (Input.GetAxis("Horizontal") == 0)
+                {
+                movementSpeed = msHolder / 2;
+                }
+
+            if (isAirborne)
+                {
+                movementSpeed = Mathf.Lerp(movementSpeed, msHolder / airMovementMod, 1 * Time.deltaTime);
+                }
+            if (!isAirborne)
+                {
+                movementSpeed = Mathf.Lerp(movementSpeed, msHolder, 1 * Time.deltaTime);
+                }
+            }
+        }
 
     void FixedUpdate()
         {
-        rb.AddForce(new Vector2(Input.GetAxis("Horizontal"), 0f) * movementSpeed);
-        rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeed);
-        
-        if (Input.GetButtonDown("Jump"))
+        if (usePhysics)
             {
-            if (!isAirborne)
+            rb.AddForce(new Vector2(Input.GetAxis("Horizontal"), 0f) * movementSpeed);
+            rb.velocity = Vector2.ClampMagnitude(rb.velocity, maxSpeed);
+
+            if (Input.GetButtonDown("Jump"))
                 {
-                rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-                //isAirborne = true;
+                if (!isAirborne)
+                    {
+                    rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+                    //isAirborne = true;
+                    }
                 }
             }
-          //Gravity Flipper 
-        //if (!recentFlip)
-        //    {
-        //    if (Input.GetKeyDown("up"))
-        //        {
-        //        gravityReverse = true;
-        //        recentFlip = true;
-        //        }
-        //
-        //    if (Input.GetKeyDown("down"))
-        //        {
-        //        gravityReverse = false;
-        //        recentFlip = true;
-        //        }
-        //    }
-        //
-        //if (gravityReverse)
-        //    {
-        //    jump = negativeJump;
-        //    Physics2D.gravity = upGravity;
-        //    }
-        //if (!gravityReverse)
-        //    {
-        //    jump = jumpForce;
-        //    Physics2D.gravity = downGravity;
-        //    }
         }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -72,6 +87,7 @@ public class CharacterControllerScript : MonoBehaviour {
         if (collision.gameObject.tag == "Ground")
             {
             isAirborne = false;
+            movementSpeed = msHolder / 2;
             recentFlip = false;
             }
         }
@@ -79,7 +95,9 @@ public class CharacterControllerScript : MonoBehaviour {
         {
         if (collision.gameObject.tag == "Ground")
             {
+            //movementSpeed = msHolder / airMovementMod;
             isAirborne = true;
+            
             }
         }
     }

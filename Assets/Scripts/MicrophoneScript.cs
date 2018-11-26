@@ -25,6 +25,16 @@ public class MicrophoneScript : MonoBehaviour {
     public Color blue;
     public Color red;
 
+    public static bool up = false;
+    public static bool down = false;
+    public static bool left = false;
+    public static bool right = false;
+    public static bool stop = false;
+
+    public static string command;
+
+    public List<bool> commands = new List<bool>();
+
     void Start () {
         micName = Microphone.devices[0].ToString();
         audioSource = gameObject.GetComponent<AudioSource>();
@@ -34,6 +44,12 @@ public class MicrophoneScript : MonoBehaviour {
         audioSource.Play();
         audioSource.outputAudioMixerGroup = mixMic;
 
+        commands.Add(up);
+        commands.Add(down);
+        commands.Add(left);
+        commands.Add(right);
+        commands.Add(stop);
+
         //Create keywords for keyword recognizer
         keywords.Add("red", () =>
         {
@@ -42,6 +58,26 @@ public class MicrophoneScript : MonoBehaviour {
         keywords.Add("blue", () =>
         {
             cam.backgroundColor = blue;
+        });
+        keywords.Add("up", () =>
+        {
+            command = "Up";
+        });
+        keywords.Add("down", () =>
+        {
+            command = "Down";
+        });
+        keywords.Add("left", () =>
+        {
+            command = "Left";
+        });
+        keywords.Add("right", () =>
+        {
+            command = "Right";
+        });
+        keywords.Add("stop", () =>
+        {
+            command = "Stop";
         });
         keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;

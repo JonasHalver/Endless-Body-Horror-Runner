@@ -7,8 +7,8 @@ public class CameraController : MonoBehaviour {
     public GameObject player;
     public Collider2D col;
 
-    private float camSpeed = 0.5f;
-
+    public float camSpeed = 0.5f;
+    
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
         
