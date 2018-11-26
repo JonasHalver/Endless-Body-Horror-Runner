@@ -17,6 +17,14 @@ public class Listener : MonoBehaviour {
     private bool withinEarshot;
     private Collider2D col;
     public Collider2D earshotCol;
+    public Collider2D listenerCol;
+
+    public Sprite sleepSprite;
+    public Sprite wokeSprite;
+    public Sprite activeSprite;
+    public Sprite deactiveSprite;
+
+    public float volumeDebug;
 
     // Use this for initialization
     void Start () {
@@ -30,11 +38,14 @@ public class Listener : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (col.IsTouching(earshotCol))
+        volumeDebug = MicrophoneScript.volume;
+
+        if (listenerCol.IsTouching(earshotCol))
             {
             withinEarshot = true;
+            Debug.Log(gameObject.name + "is within earshot");
             }
-        else if (!col.IsTouching(earshotCol))
+        else if (!listenerCol.IsTouching(earshotCol))
             {
             withinEarshot = false;
             }
@@ -56,36 +67,38 @@ public class Listener : MonoBehaviour {
         {
         if (activate)
             {
-            col.enabled = true;            
+            col.enabled = true;
+            sRenderer.sprite = wokeSprite;
             yield return new WaitForSeconds(2f);
             col.enabled = false;
+            sRenderer.sprite = sleepSprite;
             }
 
         if (hide)
             {
             col.enabled = false;
-            sRenderer.enabled = false;
+            sRenderer.sprite = deactiveSprite;
             yield return new WaitForSeconds(2f);
             col.enabled = true;
-            sRenderer.enabled = true;
+            sRenderer.sprite = activeSprite;
             }
         deafened = false;
         }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-        {
-        if (collision.gameObject.name == "Earshot")
-            {
-            withinEarshot = true;
-            }
-        }
-
-    private void OnCollisionExit2D(Collision2D collision)
-        {
-        if (collision.gameObject.name == "Earshot")
-            {
-            withinEarshot = false;
-            }
-        }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //    {
+    //    if (collision.gameObject.name == "Earshot")
+    //        {
+    //        withinEarshot = true;
+    //        }
+    //    }
+    //
+    //private void OnCollisionExit2D(Collision2D collision)
+    //    {
+    //    if (collision.gameObject.name == "Earshot")
+    //        {
+    //        withinEarshot = false;
+    //        }
+    //    }
     }
 

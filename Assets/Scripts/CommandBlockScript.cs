@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class CommandBlockScript : MonoBehaviour {
 
-    public Vector3 leftPos;
-    public Vector3 rightPos;
+    //public Vector3 leftPos;
+    //public Vector3 rightPos;
 
+    public float offset;
     public float moveSpeed = 1f;
+
+    public bool startLeft;
+    public bool startRight;
+    private Vector3 pos;
 
     private bool left;
     private bool right;
@@ -15,10 +20,25 @@ public class CommandBlockScript : MonoBehaviour {
     private bool withinEarshot;
     private Collider2D col;
     public Collider2D earshotCol;
+    public Collider2D listenerCol;
+
+    private SpriteRenderer sRenderer;
+    public Sprite leftSprite;
+    public Sprite rightSprite;
 
     void Start () {
         col = gameObject.GetComponent<Collider2D>();
         earshotCol = GameObject.Find("Earshot").GetComponent<Collider2D>();
+        pos = transform.position;
+        sRenderer = GetComponent<SpriteRenderer>();
+        if (startLeft)
+            {
+            sRenderer.sprite = rightSprite;
+            }
+        else
+            {
+            sRenderer.sprite = leftSprite;
+            }
 	}
 	
 	// Update is called once per frame
@@ -34,24 +54,43 @@ public class CommandBlockScript : MonoBehaviour {
             right = true;
             }
 
-        if (col.IsTouching(earshotCol))
+        if (listenerCol.IsTouching(earshotCol))
             {
             withinEarshot = true;
             }
-        else if (!col.IsTouching(earshotCol))
+        else if (!listenerCol.IsTouching(earshotCol))
             {
             withinEarshot = false;
             }
 
         if (withinEarshot)
             {
-            if (left)
+            if (startLeft)
                 {
-                transform.position = Vector3.Lerp(transform.position, leftPos, moveSpeed * Time.deltaTime);
+                Vector3 targetPos = new Vector3(pos.x + offset, pos.y);
+
+                if (left)
+                    {
+                    transform.position = Vector3.Lerp(transform.position, pos, moveSpeed * Time.deltaTime);
+                    }
+                if (right)
+                    {
+                    transform.position = Vector3.Lerp(transform.position, targetPos, moveSpeed * Time.deltaTime);
+                    }
                 }
-            if (right)
+
+            if (startRight)
                 {
-                transform.position = Vector3.Lerp(transform.position, rightPos, moveSpeed * Time.deltaTime);
+                Vector3 targetPos = new Vector3(pos.x - offset, pos.y);
+
+                if (left)
+                    {
+                    transform.position = Vector3.Lerp(transform.position, targetPos, moveSpeed * Time.deltaTime);
+                    }
+                if (right)
+                    {
+                    transform.position = Vector3.Lerp(transform.position, pos, moveSpeed * Time.deltaTime);
+                    }
                 }
             }
 	}

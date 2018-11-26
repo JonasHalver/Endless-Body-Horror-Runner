@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212969367871807982}
   - component: {fileID: 114405006994840188}
   - component: {fileID: 61363212454979920}
+  - component: {fileID: 61494707775552648}
   m_Layer: 0
   m_Name: Tone Block
   m_TagString: Ground
@@ -67,6 +68,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!61 &61494707775552648
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1855109137206626}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 1
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!114 &114405006994840188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -79,6 +105,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundThreshold: 0.6
+  earshotCol: {fileID: 0}
+  listenerCol: {fileID: 61494707775552648}
   resize: 0
   resizeSpeed: 1
   targetScale: {x: 1, y: 1, z: 1}

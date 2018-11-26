@@ -23,15 +23,35 @@ public class CharacterControllerScript : MonoBehaviour {
     private bool gravityReverse = false;
     private bool recentFlip = false;
 
+    private Animator anim;
+    private SpriteRenderer sRenderer;
+    public float shoutThreshold = 0.8f;
+    private bool checkVolume = true;
+
+
     void Start () {
         rb = gameObject.GetComponent<Rigidbody2D>();
         negativeJump = jumpForce * -1;
         col = gameObject.GetComponent<Collider2D>();
         msHolder = movementSpeed;
+        anim = GetComponent<Animator>();
+        sRenderer = GetComponent<SpriteRenderer>();
 	}
 
     private void Update()
         {
+        if (checkVolume)
+            {
+            if (MicrophoneScript.volume >= shoutThreshold)
+                {
+                StartCoroutine(Shout());
+                }
+            else
+                {
+                anim.SetBool("isShouting", false);
+                }
+            }
+
         if (!usePhysics)
             {
                   
@@ -45,12 +65,36 @@ public class CharacterControllerScript : MonoBehaviour {
                     rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
                     //isAirborne = true;
                     //Jump();
+                    anim.SetTrigger("jumpTrigger");
                     }
                 }
 
            if (Input.GetAxis("Horizontal") == 0)
                 {
                 movementSpeed = msHolder / 2;
+                anim.SetBool("isWalking", false);
+                anim.SetBool("isRunning", false);
+                }
+
+           if (Input.GetAxis("Horizontal") != 0)
+                {
+                if (movementSpeed < msHolder)
+                    {
+                    anim.SetBool("isWalking", true);
+                    }
+                if (movementSpeed >= msHolder - 1)
+                    {
+                    anim.SetBool("isRunning", true);
+                    }
+
+                if (Input.GetAxis("Horizontal") > 0)
+                    {
+                    sRenderer.flipX = false;
+                    }
+                if (Input.GetAxis("Horizontal") < 0)
+                    {
+                    sRenderer.flipX = true;
+                    }
                 }
 
             if (isAirborne)
@@ -59,13 +103,16 @@ public class CharacterControllerScript : MonoBehaviour {
                 }
             if (!isAirborne)
                 {
-                movementSpeed = Mathf.Lerp(movementSpeed, msHolder, 1 * Time.deltaTime);
+                movementSpeed = Mathf.Lerp(movementSpeed, msHolder, 2 * Time.deltaTime);
                 }
             }
         }
 
     void FixedUpdate()
         {
+        anim.SetFloat("upwardsVelocity", rb.velocity.y);
+
+        
         if (usePhysics)
             {
             rb.AddForce(new Vector2(Input.GetAxis("Horizontal"), 0f) * movementSpeed);
@@ -89,6 +136,11 @@ public class CharacterControllerScript : MonoBehaviour {
             isAirborne = false;
             movementSpeed = msHolder / 2;
             recentFlip = false;
+            anim.SetTrigger("landedTrigger");
+            if (collision.gameObject.name == "Command Block")
+                {
+                transform.parent = collision.transform;
+                }
             }
         }
     private void OnCollisionExit2D(Collision2D collision)
@@ -98,6 +150,18 @@ public class CharacterControllerScript : MonoBehaviour {
             //movementSpeed = msHolder / airMovementMod;
             isAirborne = true;
             
+            if (collision.gameObject.name == "Command Block")
+                {
+                transform.parent = null;
+                }
             }
+        }
+
+    IEnumerator Shout()
+        {
+        anim.SetBool("isShouting", true);
+        checkVolume = false;
+        yield return new WaitForSeconds(1f);
+        checkVolume = true;
         }
     }
