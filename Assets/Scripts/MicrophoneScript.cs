@@ -75,10 +75,10 @@ public class MicrophoneScript : MonoBehaviour {
         {
             command = "Right";
         });
-        keywords.Add("stop", () =>
-        {
-            command = "Stop";
-        });
+        //keywords.Add("stop", () =>
+        //{
+        //    command = "Stop";
+        //});
         keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
 

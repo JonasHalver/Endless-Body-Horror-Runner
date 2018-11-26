@@ -1,0 +1,814 @@
+fileFormatVersion: 2
+guid: 48d40368f4a3bd749b6419d270a17794
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: streamergame_spritesheet_character_0
+    21300002: streamergame_spritesheet_character_1
+    21300004: streamergame_spritesheet_character_2
+    21300006: streamergame_spritesheet_character_3
+    21300008: streamergame_spritesheet_character_4
+    21300010: streamergame_spritesheet_character_5
+    21300012: streamergame_spritesheet_character_6
+    21300014: streamergame_spritesheet_character_7
+    21300016: streamergame_spritesheet_character_8
+    21300018: streamergame_spritesheet_character_9
+    21300020: streamergame_spritesheet_character_10
+    21300022: streamergame_spritesheet_character_11
+    21300024: streamergame_spritesheet_character_12
+    21300026: streamergame_spritesheet_character_13
+    21300028: streamergame_spritesheet_character_14
+    21300030: streamergame_spritesheet_character_15
+    21300032: streamergame_spritesheet_character_16
+    21300034: streamergame_spritesheet_character_17
+    21300036: streamergame_spritesheet_character_18
+    21300038: streamergame_spritesheet_character_19
+    21300040: streamergame_spritesheet_character_20
+    21300042: streamergame_spritesheet_character_21
+    21300044: streamergame_spritesheet_character_22
+    21300046: streamergame_spritesheet_character_23
+    21300048: streamergame_spritesheet_character_24
+    21300050: streamergame_spritesheet_character_25
+    21300052: streamergame_spritesheet_character_27
+    21300054: streamergame_spritesheet_character_28
+    21300056: streamergame_spritesheet_character_29
+    21300058: streamergame_spritesheet_character_30
+    21300060: streamergame_spritesheet_character_31
+    21300062: streamergame_spritesheet_character_35
+    21300064: streamergame_spritesheet_character_36
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 11498
+        width: 931
+        height: 1029
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587e75accf393fb4a93a069d77d5564c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_1
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 11498
+        width: 955
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a89fb54380f4b44ab5d891866dfb74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 10321
+        width: 1054
+        height: 863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa0c7a4722da2348826658094a18462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_3
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 10321
+        width: 851
+        height: 1072
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c363eb3f74892df4994a86389b824eae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_4
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 10321
+        width: 1220
+        height: 998
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2d3f01f9723804bbaa34091218e37e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_5
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 10321
+        width: 1374
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0259bd20fb121864f8ba86e26a06c872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 9119
+        width: 919
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a55ed96ac16de40830a0af42b3f009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_7
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 9119
+        width: 961
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eb47b3cd80525419244d96f5898669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_8
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 9119
+        width: 1011
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5934e6ed339e04595f23891d20b063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_9
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 9119
+        width: 961
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e1f1a7a22835747a5b59574c8d6557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 7966
+        width: 1017
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3de47a4a25a9f14ba7098f4f6db928a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_11
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 7877
+        width: 788
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee03ffc71e8a1364ea500f1f0a7978cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_12
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 7862
+        width: 813
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39892e9597286245b48703bd589ed66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_13
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 7862
+        width: 770
+        height: 1017
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c992e88e508474685c38ffa063bd22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 6438
+        width: 1295
+        height: 1165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c10c5c184c1d5a4a8cf66d04d10eaad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_15
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 6395
+        width: 1244
+        height: 1275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce17a7bf5e30fc49ba30a3923fc6097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_16
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 6395
+        width: 1399
+        height: 1251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616ce7bb1f6b2a648ac46baeef47a43f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_17
+      rect:
+        serializedVersion: 2
+        x: 4743
+        y: 6395
+        width: 1398
+        height: 1256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26916d0b8d1def744bb6d5d90c8af935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_18
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 4959
+        width: 1183
+        height: 1257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80f893c56bb4aa49b8aca405f8741d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_19
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 4940
+        width: 1189
+        height: 1214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59cf959258241148b2fa4c78e063b7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_20
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 4940
+        width: 1250
+        height: 1276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ac256f58f9b3d4d9a81f4af64660d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_21
+      rect:
+        serializedVersion: 2
+        x: 4897
+        y: 4940
+        width: 1177
+        height: 1338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b73fa6d2c491446ae6e551c83ec417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_22
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 3547
+        width: 1195
+        height: 1190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd720668bf65b7d41a8fca81f4c91660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_23
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 3461
+        width: 1152
+        height: 1214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556c9bdafb4889446a7684455546d1a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_24
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 3442
+        width: 1196
+        height: 1295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2ba2f66add3d645aaa3ad7d81f7837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_25
+      rect:
+        serializedVersion: 2
+        x: 4878
+        y: 3449
+        width: 1122
+        height: 1352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd1e748a0b594a45a105d500dcc3342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2049
+        width: 1214
+        height: 1184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd00172e3f2bdd4dadba0af4337c1ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_28
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 2049
+        width: 1176
+        height: 1122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d26eb682b0798b4b9ce8c182293ac81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_29
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 2049
+        width: 1256
+        height: 1184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56e9d723af6a524eb83d0433d438370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_30
+      rect:
+        serializedVersion: 2
+        x: 4644
+        y: 2049
+        width: 1202
+        height: 1239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ce0127cee21e44a8858b4e4d9fab04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_31
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 244
+        width: 850
+        height: 1363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afa8740b957fa4418f6cd68e6d781b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_35
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 416
+        width: 1113
+        height: 1143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253387d71a610fe41a13bf2fb38e2dbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streamergame_spritesheet_character_36
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 416
+        width: 1125
+        height: 1136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abc940f1fa03754e92f06bcfdade0e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ad1ad5c4d80d5b84a9b5853849623164
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

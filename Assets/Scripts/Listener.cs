@@ -4,44 +4,61 @@ using UnityEngine;
 
 public class Listener : MonoBehaviour {
 
-    private Vector3 normalPos;
-    public Vector3 hidePos;
+    //private Vector3 startPos;
+    //public Vector3 targetPos;
 
-    public bool move = false;
+    public bool activate = false;
     public bool hide = false;
 
     private SpriteRenderer sRenderer;
-    private Collider2D col;
 
     public float threshold = 0.7f;
     private bool deafened = false;
+    private bool withinEarshot;
+    private Collider2D col;
+    public Collider2D earshotCol;
 
-	// Use this for initialization
-	void Start () {
-        normalPos = transform.position;
+    // Use this for initialization
+    void Start () {
+        //startPos = transform.position;
         sRenderer = GetComponent<SpriteRenderer>();
         col = GetComponent<Collider2D>();
+        
+        earshotCol = GameObject.Find("Earshot").GetComponent<Collider2D>();
+        col.enabled = hide;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (!deafened)
+        if (col.IsTouching(earshotCol))
             {
-            if (MicrophoneScript.volume > threshold)
+            withinEarshot = true;
+            }
+        else if (!col.IsTouching(earshotCol))
+            {
+            withinEarshot = false;
+            }
+
+        if (withinEarshot)
+            {
+            if (!deafened)
                 {
-                StartCoroutine(Deafen());
-                deafened = true;
+                if (MicrophoneScript.volume > threshold)
+                    {
+                    StartCoroutine(Deafen());
+                    deafened = true;
+                    }
                 }
             }
 	}
 
     IEnumerator Deafen()
         {
-        if (move)
+        if (activate)
             {
-            transform.position = hidePos;
+            col.enabled = true;            
             yield return new WaitForSeconds(2f);
-            transform.position = normalPos;
+            col.enabled = false;
             }
 
         if (hide)
@@ -54,4 +71,21 @@ public class Listener : MonoBehaviour {
             }
         deafened = false;
         }
-}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+        {
+        if (collision.gameObject.name == "Earshot")
+            {
+            withinEarshot = true;
+            }
+        }
+
+    private void OnCollisionExit2D(Collision2D collision)
+        {
+        if (collision.gameObject.name == "Earshot")
+            {
+            withinEarshot = false;
+            }
+        }
+    }
+

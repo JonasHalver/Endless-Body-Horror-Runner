@@ -6,6 +6,7 @@ public class CameraController : MonoBehaviour {
 
     public GameObject player;
     public Collider2D col;
+    public bool movingCam = true;
 
     public float camSpeed = 0.5f;
     
@@ -25,7 +26,10 @@ public class CameraController : MonoBehaviour {
             }
         else
             {
-            transform.position = new Vector3(transform.position.x + (camSpeed * Time.deltaTime), 1, -10);
+            if (movingCam)
+                {
+                transform.position = new Vector3(transform.position.x + (camSpeed * Time.deltaTime), 1, -10);
+                }
             }
 	}
 }
