@@ -154,6 +154,11 @@ MonoBehaviour:
   mixMic: {fileID: 243994653977098056, guid: 636e743ede508864280bee0327ce3922, type: 2}
   master: {fileID: 0}
   sensitivity: 10
+  minShout: 0.75
+  minSpeak: 0.15
+  lvlText: {fileID: 0}
+  volText: {fileID: 0}
+  cmdText: {fileID: 0}
   cam: {fileID: 0}
   blue: {r: 0, g: 0.11251116, b: 1, a: 1}
   red: {r: 1, g: 0, b: 0, a: 1}

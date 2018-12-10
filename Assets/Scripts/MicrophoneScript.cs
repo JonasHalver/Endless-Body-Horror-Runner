@@ -16,7 +16,9 @@ public class MicrophoneScript : MonoBehaviour {
     public AudioMixerGroup master;
 
     public static float volume;
-    public float sensitivity = 10;
+    public float sensitivity = 10, minShout, minSpeak;
+
+    public UnityEngine.UI.Text lvlText, volText, cmdText;
 
     public Camera cam;
 
@@ -50,6 +52,8 @@ public class MicrophoneScript : MonoBehaviour {
         commands.Add(right);
         commands.Add(stop);
 
+        StartCoroutine(VolCheck());
+
         //Create keywords for keyword recognizer
         keywords.Add("red", () =>
         {
@@ -63,22 +67,22 @@ public class MicrophoneScript : MonoBehaviour {
         {
             command = "Up";
         });
-        keywords.Add("down", () =>
+        keywords.Add("go up", () =>
         {
-            command = "Down";
+            command = "Go up!";
         });
-        keywords.Add("left", () =>
+        keywords.Add("go left", () =>
         {
             command = "Left";
         });
-        keywords.Add("right", () =>
+        keywords.Add("go right", () =>
         {
             command = "Right";
         });
-        //keywords.Add("stop", () =>
-        //{
-        //    command = "Stop";
-        //});
+        keywords.Add("go down", () =>
+        {
+            command = "Down";
+        });
         keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
 
@@ -88,6 +92,7 @@ public class MicrophoneScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         volume = Mathf.Clamp(Loudness() * sensitivity, 0, 1);
+
         }
 
 
@@ -110,6 +115,29 @@ public class MicrophoneScript : MonoBehaviour {
         if (keywords.TryGetValue(args.text, out keywordAction))
             {
             keywordAction.Invoke();
+            }
+        }
+
+    IEnumerator VolCheck()
+        {
+        while (true)
+            {
+            volText.text = volume.ToString();
+            cmdText.text = command;
+
+            if (volume < minShout && volume > minSpeak)
+                {
+                lvlText.text = "Speaking";
+                }
+            else if (volume < minSpeak)
+                {
+                lvlText.text = "Silent";
+                }
+            else
+                {
+                lvlText.text = "Shouting";
+                }
+            yield return new WaitForSeconds(0.5f);
             }
         }
     }
