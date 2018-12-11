@@ -573,32 +573,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 778629041}
   m_CullTransparentMesh: 0
---- !u!1 &849415578 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1675656703468962, guid: c9735dc69ae95424d8e6ebca818e216e,
-    type: 2}
-  m_PrefabInternal: {fileID: 974740696}
---- !u!114 &849415579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 849415578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af8f432febf4f8d438998914bad87b20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 2
-  triggerOnSpeaking: 0
-  onSprite: {fileID: 0}
-  offSprite: {fileID: 0}
-  shoutThreshold: 0.75
-  speakThreshold: 0.15
-  delay: 1
-  targetScale: {x: 100, y: 0, z: 0}
-  changeSpeed: 1
-  direction: 1
 --- !u!1001 &974740696
 Prefab:
   m_ObjectHideFlags: 0
@@ -637,19 +611,6 @@ Prefab:
     - target: {fileID: 4560557813140692, guid: c9735dc69ae95424d8e6ebca818e216e, type: 2}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 212978220669541668, guid: c9735dc69ae95424d8e6ebca818e216e,
-        type: 2}
-      propertyPath: m_DrawMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4560557813140692, guid: c9735dc69ae95424d8e6ebca818e216e, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.7878789
-      objectReference: {fileID: 0}
-    - target: {fileID: 4560557813140692, guid: c9735dc69ae95424d8e6ebca818e216e, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.5990001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9735dc69ae95424d8e6ebca818e216e, type: 2}
