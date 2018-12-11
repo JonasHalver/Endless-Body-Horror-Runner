@@ -7,8 +7,8 @@ public class Listener : MonoBehaviour {
     //private Vector3 startPos;
     //public Vector3 targetPos;
 
-    public bool activate = false;
-    public bool hide = false;
+    public bool activateOnSound = false;
+    public bool hideOnSound = false, isVertical = false, isHorizontal = false;
 
     private SpriteRenderer sRenderer;
 
@@ -19,11 +19,13 @@ public class Listener : MonoBehaviour {
     public Collider2D earshotCol;
     public Collider2D listenerCol;
 
-    public Sprite sleepSprite;
-    public Sprite wokeSprite;
-    public Sprite activeSprite;
-    public Sprite deactiveSprite;
+    public Sprite activatorActiveV, activatorActiveH;
+    public Sprite activatorDeactiveV, activatorDeactiveH;
+    public Sprite hiderActiveV, hiderActiveH;
+    public Sprite hiderDeactiveV, hiderDeactiveH;
+    private Sprite loudSprite, quietSprite;
 
+    public float delay = 1f;
     public float volumeDebug;
 
     // Use this for initialization
@@ -33,7 +35,35 @@ public class Listener : MonoBehaviour {
         col = GetComponent<Collider2D>();
         
         earshotCol = GameObject.Find("Earshot").GetComponent<Collider2D>();
-        col.enabled = hide;
+        col.enabled = hideOnSound;
+
+        if (hideOnSound)
+            {
+            if (isVertical)
+                {
+                loudSprite = hiderDeactiveV;
+                quietSprite = hiderActiveV;
+                }
+            if (isHorizontal)
+                {
+                loudSprite = hiderDeactiveH;
+                quietSprite = hiderActiveH;
+                }
+            }
+        if (activateOnSound)
+            {
+            if (isVertical)
+                {
+                loudSprite = activatorActiveV;
+                quietSprite = activatorDeactiveV;
+                }
+            if (isHorizontal)
+                {
+                loudSprite = activatorActiveH;
+                quietSprite = activatorDeactiveH;
+                }
+            }
+        sRenderer.sprite = quietSprite;
 	}
 	
 	// Update is called once per frame
@@ -65,22 +95,22 @@ public class Listener : MonoBehaviour {
 
     IEnumerator Deafen()
         {
-        if (activate)
+        if (activateOnSound)
             {
             col.enabled = true;
-            sRenderer.sprite = wokeSprite;
-            yield return new WaitForSeconds(2f);
+            sRenderer.sprite = loudSprite;
+            yield return new WaitForSeconds(delay);
             col.enabled = false;
-            sRenderer.sprite = sleepSprite;
+            sRenderer.sprite = quietSprite;
             }
 
-        if (hide)
+        if (hideOnSound)
             {
             col.enabled = false;
-            sRenderer.sprite = deactiveSprite;
-            yield return new WaitForSeconds(2f);
+            sRenderer.sprite = loudSprite;            
+            yield return new WaitForSeconds(delay);
             col.enabled = true;
-            sRenderer.sprite = activeSprite;
+            sRenderer.sprite = quietSprite;
             }
         deafened = false;
         }

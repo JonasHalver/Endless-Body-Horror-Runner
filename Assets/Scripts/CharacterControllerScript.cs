@@ -28,6 +28,9 @@ public class CharacterControllerScript : MonoBehaviour {
     public float shoutThreshold = 0.8f;
     private bool checkVolume = true;
 
+    private GameObject respawn;
+    private bool isDead;
+
 
     void Start () {
         rb = gameObject.GetComponent<Rigidbody2D>();
@@ -36,6 +39,7 @@ public class CharacterControllerScript : MonoBehaviour {
         msHolder = movementSpeed;
         anim = GetComponent<Animator>();
         sRenderer = GetComponent<SpriteRenderer>();
+        respawn = GameObject.FindGameObjectWithTag("Respawn");
 	}
 
     private void Update()
@@ -52,58 +56,71 @@ public class CharacterControllerScript : MonoBehaviour {
                 }
             }
 
-        if (!usePhysics)
+        if (isDead)
             {
-                  
-            Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
-            transform.Translate(movement * (movementSpeed * Time.deltaTime));
-
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Reset"))
                 {
+                transform.position = respawn.transform.position;
+                isDead = false;
+                anim.SetTrigger("reset");
+                }
+            }
+
+        if (!isDead)
+            {
+            if (!usePhysics)
+                {
+
+                Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
+                transform.Translate(movement * (movementSpeed * Time.deltaTime));
+
+                if (Input.GetButtonDown("Jump"))
+                    {
+                    if (!isAirborne)
+                        {
+                        rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+                        //isAirborne = true;
+                        //Jump();
+                        anim.SetTrigger("jumpTrigger");
+                        }
+                    }
+
+                if (Input.GetAxis("Horizontal") == 0)
+                    {
+                    movementSpeed = msHolder / 2;
+                    anim.SetBool("isWalking", false);
+                    anim.SetBool("isRunning", false);
+                    }
+
+                if (Input.GetAxis("Horizontal") != 0)
+                    {
+                    if (movementSpeed < msHolder)
+                        {
+                        anim.SetBool("isWalking", true);
+                        }
+                    if (movementSpeed >= msHolder - 1)
+                        {
+                        anim.SetBool("isRunning", true);
+                        }
+
+                    if (Input.GetAxis("Horizontal") > 0)
+                        {
+                        sRenderer.flipX = false;
+                        }
+                    if (Input.GetAxis("Horizontal") < 0)
+                        {
+                        sRenderer.flipX = true;
+                        }
+                    }
+
+                if (isAirborne)
+                    {
+                    movementSpeed = Mathf.Lerp(movementSpeed, msHolder / airMovementMod, 1 * Time.deltaTime);
+                    }
                 if (!isAirborne)
                     {
-                    rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-                    //isAirborne = true;
-                    //Jump();
-                    anim.SetTrigger("jumpTrigger");
+                    movementSpeed = Mathf.Lerp(movementSpeed, msHolder, 2 * Time.deltaTime);
                     }
-                }
-
-           if (Input.GetAxis("Horizontal") == 0)
-                {
-                movementSpeed = msHolder / 2;
-                anim.SetBool("isWalking", false);
-                anim.SetBool("isRunning", false);
-                }
-
-           if (Input.GetAxis("Horizontal") != 0)
-                {
-                if (movementSpeed < msHolder)
-                    {
-                    anim.SetBool("isWalking", true);
-                    }
-                if (movementSpeed >= msHolder - 1)
-                    {
-                    anim.SetBool("isRunning", true);
-                    }
-
-                if (Input.GetAxis("Horizontal") > 0)
-                    {
-                    sRenderer.flipX = false;
-                    }
-                if (Input.GetAxis("Horizontal") < 0)
-                    {
-                    sRenderer.flipX = true;
-                    }
-                }
-
-            if (isAirborne)
-                {
-                movementSpeed = Mathf.Lerp(movementSpeed, msHolder / airMovementMod, 1 * Time.deltaTime);
-                }
-            if (!isAirborne)
-                {
-                movementSpeed = Mathf.Lerp(movementSpeed, msHolder, 2 * Time.deltaTime);
                 }
             }
         }
@@ -163,5 +180,14 @@ public class CharacterControllerScript : MonoBehaviour {
         checkVolume = false;
         yield return new WaitForSeconds(1f);
         checkVolume = true;
+        }
+
+    private void OnTriggerEnter2D(Collider2D other)
+        {
+        if (other.tag == "KillZone")
+            {
+            isDead = true;
+            anim.SetTrigger("death");
+            }
         }
     }

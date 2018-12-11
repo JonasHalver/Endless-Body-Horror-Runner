@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 714818dc7d9616c49b7e13d384248a2e
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: cloud3sheet_0
+    21300002: cloud3sheet_1
+    21300004: cloud3sheet_2
+    21300006: cloud3sheet_3
+    21300008: cloud3sheet_4
+    21300010: cloud3sheet_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -104,11 +110,131 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cloud3sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 307
+        width: 348
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c517a99811ac56e47ab6286c55b245cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud3sheet_1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 339
+        width: 350
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a726e96a18c1c46a8088df5abb103f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud3sheet_2
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 345
+        width: 347
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb64926c01324334296997dca509bebe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud3sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 328
+        width: 348
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9123e72221b7a614a9cc2cf2c5b74a86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud3sheet_4
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 0
+        width: 361
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff3e42f774b8f544b300a9f88c177b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloud3sheet_5
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 20
+        width: 351
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eafa0d0da0487468bc4eaedcb6282f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3630166123171754b883e4ef181f0262
     vertices: []
     indices: 
     edges: []

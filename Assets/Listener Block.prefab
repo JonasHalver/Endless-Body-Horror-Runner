@@ -37,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1763629339905188}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09000015, y: -0.04, z: 0}
+  m_LocalPosition: {x: 2.45, y: 2.7, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -104,15 +104,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b29fa6167ec86f4fbb13871aef98a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activate: 1
-  hide: 0
+  activateOnSound: 1
+  hideOnSound: 0
+  isVertical: 0
+  isHorizontal: 1
   threshold: 0.8
   earshotCol: {fileID: 0}
   listenerCol: {fileID: 61645547268844364}
-  sleepSprite: {fileID: 21300060, guid: 108409e3b3b8d64488272110960e8601, type: 3}
-  wokeSprite: {fileID: 21300056, guid: 108409e3b3b8d64488272110960e8601, type: 3}
-  activeSprite: {fileID: 0}
-  deactiveSprite: {fileID: 0}
+  activatorActiveV: {fileID: 21300012, guid: 108409e3b3b8d64488272110960e8601, type: 3}
+  activatorActiveH: {fileID: 21300048, guid: 108409e3b3b8d64488272110960e8601, type: 3}
+  activatorDeactiveV: {fileID: 21300016, guid: 108409e3b3b8d64488272110960e8601, type: 3}
+  activatorDeactiveH: {fileID: 21300060, guid: 108409e3b3b8d64488272110960e8601, type: 3}
+  hiderActiveV: {fileID: 21300002, guid: 1fe604f3b213e2149a7fa5ed9f6c6cbe, type: 3}
+  hiderActiveH: {fileID: 21300004, guid: 714818dc7d9616c49b7e13d384248a2e, type: 3}
+  hiderDeactiveV: {fileID: 21300004, guid: 1fe604f3b213e2149a7fa5ed9f6c6cbe, type: 3}
+  hiderDeactiveH: {fileID: 21300010, guid: 714818dc7d9616c49b7e13d384248a2e, type: 3}
+  delay: 1
   volumeDebug: 0
 --- !u!212 &212986312002944586
 SpriteRenderer:
