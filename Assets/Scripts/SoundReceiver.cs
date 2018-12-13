@@ -21,8 +21,11 @@ public class SoundReceiver : MonoBehaviour {
     private Quaternion startRot;
     public float direction = 1f;
 
+    private CommandBlockScript cmdScript;
+
     // Use this for initialization
     void Start () {
+        cmdScript = GetComponent<CommandBlockScript>();
         srend = GetComponent<SpriteRenderer>();
         col = GetComponent<BoxCollider2D>();
         startRot = transform.rotation;
@@ -112,7 +115,31 @@ public class SoundReceiver : MonoBehaviour {
                     }
                 }
             }
-	}
+
+        if (cmdScript != null)
+            {
+            if (MicrophoneScript.command == "Up")
+                {
+                cmdScript.dir = CommandBlockScript.Directions.Up;
+                }
+            if (MicrophoneScript.command == "Down")
+                {
+                cmdScript.dir = CommandBlockScript.Directions.Down;
+                }
+            if (MicrophoneScript.command == "Left")
+                {
+                cmdScript.dir = CommandBlockScript.Directions.Left;
+                }
+            if (MicrophoneScript.command == "Right")
+                {
+                cmdScript.dir = CommandBlockScript.Directions.Right;
+                }
+            if (MicrophoneScript.command == "Stop")
+                {
+                cmdScript.dir = CommandBlockScript.Directions.Stop;
+                }
+            }
+    }
 
     IEnumerator OnSpeaking()
         {

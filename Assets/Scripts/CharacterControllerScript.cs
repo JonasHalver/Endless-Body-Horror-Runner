@@ -154,10 +154,15 @@ public class CharacterControllerScript : MonoBehaviour {
             movementSpeed = msHolder / 2;
             recentFlip = false;
             anim.SetTrigger("landedTrigger");
-            if (collision.gameObject.name == "Command Block")
-                {
-                transform.parent = collision.transform;
-                }
+            }
+
+        if (collision.gameObject.tag == "MovingPlatform")
+            {
+            transform.parent = collision.transform;
+            isAirborne = false;
+            movementSpeed = msHolder / 2;
+            recentFlip = false;
+            anim.SetTrigger("landedTrigger");
             }
         }
     private void OnCollisionExit2D(Collision2D collision)
@@ -166,12 +171,13 @@ public class CharacterControllerScript : MonoBehaviour {
             {
             //movementSpeed = msHolder / airMovementMod;
             isAirborne = true;
-            
-            if (collision.gameObject.name == "Command Block")
-                {
-                transform.parent = null;
-                }
             }
+        if (collision.gameObject.tag == "MovingPlatform")
+            {
+            transform.parent = null;
+            isAirborne = true;
+            }
+
         }
 
     IEnumerator Shout()

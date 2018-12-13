@@ -63,13 +63,13 @@ public class MicrophoneScript : MonoBehaviour {
         {
             cam.backgroundColor = blue;
         });
-        keywords.Add("up", () =>
+        keywords.Add("stop", () =>
         {
-            command = "Up";
+            command = "Stop";
         });
         keywords.Add("go up", () =>
         {
-            command = "Go up!";
+            command = "Up";
         });
         keywords.Add("go left", () =>
         {

@@ -1,0 +1,1150 @@
+fileFormatVersion: 2
+guid: 3ca67f4f7815e4f4cb0da296f534607f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: yellgame_groundTileset_0
+    21300002: yellgame_groundTileset_1
+    21300004: yellgame_groundTileset_2
+    21300006: yellgame_groundTileset_3
+    21300008: yellgame_groundTileset_4
+    21300010: yellgame_groundTileset_5
+    21300012: yellgame_groundTileset_6
+    21300014: yellgame_groundTileset_7
+    21300016: yellgame_groundTileset_8
+    21300018: yellgame_groundTileset_11
+    21300020: yellgame_groundTileset_12
+    21300022: yellgame_groundTileset_13
+    21300024: yellgame_groundTileset_14
+    21300026: yellgame_groundTileset_15
+    21300028: yellgame_groundTileset_16
+    21300030: yellgame_groundTileset_17
+    21300032: yellgame_groundTileset_18
+    21300034: yellgame_groundTileset_19
+    21300036: yellgame_groundTileset_21
+    21300038: yellgame_groundTileset_22
+    21300040: yellgame_groundTileset_23
+    21300042: yellgame_groundTileset_24
+    21300044: yellgame_groundTileset_25
+    21300046: yellgame_groundTileset_26
+    21300048: yellgame_groundTileset_27
+    21300050: yellgame_groundTileset_28
+    21300052: yellgame_groundTileset_29
+    21300054: yellgame_groundTileset_32
+    21300056: yellgame_groundTileset_33
+    21300058: yellgame_groundTileset_34
+    21300060: yellgame_groundTileset_35
+    21300062: yellgame_groundTileset_36
+    21300064: yellgame_groundTileset_37
+    21300066: yellgame_groundTileset_38
+    21300068: yellgame_groundTileset_39
+    21300070: yellgame_groundTileset_40
+    21300072: yellgame_groundTileset_42
+    21300074: yellgame_groundTileset_43
+    21300076: yellgame_groundTileset_44
+    21300078: yellgame_groundTileset_45
+    21300080: yellgame_groundTileset_46
+    21300082: yellgame_groundTileset_47
+    21300084: yellgame_groundTileset_48
+    21300086: yellgame_groundTileset_53
+    21300088: yellgame_groundTileset_54
+    21300090: yellgame_groundTileset_10
+    21300092: yellgame_groundTileset_9
+    21300094: yellgame_groundTileset_20
+    21300096: yellgame_groundTileset_30
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yellgame_groundTileset_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4098
+        width: 1243
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2ab7027f2baa14ba7288eaa950f134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_1
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 4522
+        width: 651
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0ed179013ebfe42af304797dce12bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_2
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 4493
+        width: 654
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ffbc88cad17dc40929180b0ed9797a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_3
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 4430
+        width: 1501
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcf111938bbb014794ea864fb115983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_4
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 4534
+        width: 1505
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61d62f4bfa858b4f8b22fdb48ff73b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_5
+      rect:
+        serializedVersion: 2
+        x: 7414
+        y: 4522
+        width: 1009
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb26719dba93374a89aa90034ad1e53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_6
+      rect:
+        serializedVersion: 2
+        x: 8463
+        y: 4539
+        width: 1015
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db1434df29153243831f349939b29f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_7
+      rect:
+        serializedVersion: 2
+        x: 9547
+        y: 4591
+        width: 1015
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a69f2f70df9ac4baf28487d08b6d15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_8
+      rect:
+        serializedVersion: 2
+        x: 10597
+        y: 4505
+        width: 1015
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a8811d83a959d4cacff4a950e3a4ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_11
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3174
+        width: 1243
+        height: 829
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244f4603d0b7c08459564c74d542a6b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_12
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 3513
+        width: 651
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee355debb31e703448767c7bbed7cd6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_13
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 3519
+        width: 654
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 286d7c87247a74943b0a6faf545c024c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_14
+      rect:
+        serializedVersion: 2
+        x: 4312
+        y: 3467
+        width: 1498
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08acde42ce5523548968aaf332ace753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_15
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 3537
+        width: 1505
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b0da53efaa1434290248ec11aa8f14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_16
+      rect:
+        serializedVersion: 2
+        x: 7414
+        y: 3542
+        width: 1009
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29c4c3319c586a4186cadbca74ff3d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_17
+      rect:
+        serializedVersion: 2
+        x: 8463
+        y: 3542
+        width: 1015
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091b1f242ac11d74289cd12f1dd84294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_18
+      rect:
+        serializedVersion: 2
+        x: 9547
+        y: 3594
+        width: 1015
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9655006edfcc7634b96488d715d56e00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_19
+      rect:
+        serializedVersion: 2
+        x: 10597
+        y: 3514
+        width: 1015
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b1cb1f9606d0b4d9235d355c8567c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2225
+        width: 1243
+        height: 891
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fd84e6f0f00284bb0a1a36f4899f2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_22
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 2643
+        width: 651
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8845e1303a6305049a81c29bcc0cc6ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_23
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 2614
+        width: 654
+        height: 496
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdc641660c2c65449e0ba2984a08eb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_24
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 2551
+        width: 1503
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228ba77f0317f7d4ca32a415ff31ec71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_25
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 2655
+        width: 1505
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c9922fd68550c41b76202bb727a293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_26
+      rect:
+        serializedVersion: 2
+        x: 7414
+        y: 2643
+        width: 1009
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e4caa25e93e1045b67a12a613124c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_27
+      rect:
+        serializedVersion: 2
+        x: 8463
+        y: 2660
+        width: 1015
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b95916f7c2cd414f8e93b9e8614af69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_28
+      rect:
+        serializedVersion: 2
+        x: 9547
+        y: 2712
+        width: 1015
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8151be4a9ad6334bb2934209dbacbc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_29
+      rect:
+        serializedVersion: 2
+        x: 10597
+        y: 2626
+        width: 1015
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7ff88e529cf4548a2decc3b5df03bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_32
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1294
+        width: 1243
+        height: 830
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed945977ff0c0564aacba6811027190c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_33
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 1629
+        width: 651
+        height: 489
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c17052475aabf4db16ffc0f2b3c507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_34
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 1640
+        width: 654
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df85b279f6e67424ea93a12f38669ead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_35
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1588
+        width: 1501
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506c62624eb4e1240a1347ed286787fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_36
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 1657
+        width: 1505
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307d21d68e50c62478a0cc01d60f90e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_37
+      rect:
+        serializedVersion: 2
+        x: 7414
+        y: 1658
+        width: 1009
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3e2c0ebfe5f0841a2d0e59451642f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_38
+      rect:
+        serializedVersion: 2
+        x: 8463
+        y: 1663
+        width: 1015
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270b5aeab5020ac44bd01d21d5684da6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_39
+      rect:
+        serializedVersion: 2
+        x: 9547
+        y: 1709
+        width: 1015
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b7d3198035914db777d756553a352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_40
+      rect:
+        serializedVersion: 2
+        x: 10597
+        y: 1640
+        width: 1015
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef98ab9be53fc9349bb0b03ef2506313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_42
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 141
+        width: 1013
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8d0f7cf5abe884490d0a868ad718e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_43
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 141
+        width: 1015
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3598ca3bc1d7d43927d519b75703e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_44
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 141
+        width: 1015
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb144792aee88634ea45e49fa716e831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_45
+      rect:
+        serializedVersion: 2
+        x: 3302
+        y: 141
+        width: 1009
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f832704205ffad747b99909e3bb9dc0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_46
+      rect:
+        serializedVersion: 2
+        x: 4376
+        y: 141
+        width: 1013
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6fd036942f4d84092592560f31d811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_47
+      rect:
+        serializedVersion: 2
+        x: 5453
+        y: 141
+        width: 1015
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccb898475eeccf4a8278cf6d85d7dcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_48
+      rect:
+        serializedVersion: 2
+        x: 6531
+        y: 141
+        width: 1015
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78215e987da63148a563a2795dc319c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_53
+      rect:
+        serializedVersion: 2
+        x: 7667
+        y: 946
+        width: 998
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450d95aeca12f764e88a9fae2f86ca24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_54
+      rect:
+        serializedVersion: 2
+        x: 9023
+        y: 139
+        width: 1011
+        height: 1011
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0662bfde237f6f744a25a2fb9545c212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_10
+      rect:
+        serializedVersion: 2
+        x: 4314
+        y: 4510
+        width: 1493
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a895ba90bfd8047bf630cc9e9b439f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_9
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 3464
+        width: 1506
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c28158298a0cc7429424656ebe2d410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_20
+      rect:
+        serializedVersion: 2
+        x: 4310
+        y: 2625
+        width: 1495
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca5aef66bc4adc468eef8b215be4573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_groundTileset_30
+      rect:
+        serializedVersion: 2
+        x: 4310
+        y: 1636
+        width: 1499
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8294ea593fd6bd44da83e89a3f9e08e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a2da40050edf0f6499d82ba1d5819f71
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
