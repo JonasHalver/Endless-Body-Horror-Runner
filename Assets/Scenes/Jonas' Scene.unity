@@ -38,13 +38,13 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -364,7 +364,7 @@ Light:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 526806307}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
@@ -611,6 +611,29 @@ Prefab:
     - target: {fileID: 4560557813140692, guid: c9735dc69ae95424d8e6ebca818e216e, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 212978220669541668, guid: c9735dc69ae95424d8e6ebca818e216e,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 3ca67f4f7815e4f4cb0da296f534607f,
+        type: 3}
+    - target: {fileID: 114538981515837558, guid: c9735dc69ae95424d8e6ebca818e216e,
+        type: 2}
+      propertyPath: onSprite
+      value: 
+      objectReference: {fileID: 21300006, guid: 3ca67f4f7815e4f4cb0da296f534607f,
+        type: 3}
+    - target: {fileID: 114538981515837558, guid: c9735dc69ae95424d8e6ebca818e216e,
+        type: 2}
+      propertyPath: offSprite
+      value: 
+      objectReference: {fileID: 21300042, guid: 3ca67f4f7815e4f4cb0da296f534607f,
+        type: 3}
+    - target: {fileID: 114538981515837558, guid: c9735dc69ae95424d8e6ebca818e216e,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9735dc69ae95424d8e6ebca818e216e, type: 2}
@@ -991,6 +1014,24 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1659405154}
   m_CullTransparentMesh: 0
+--- !u!1 &1670644187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675656703468962, guid: c9735dc69ae95424d8e6ebca818e216e,
+    type: 2}
+  m_PrefabInternal: {fileID: 974740696}
+--- !u!114 &1670644192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1670644187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712fe3b5a6f227742bfc3cff2b41b9d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  dir: 4
 --- !u!1 &1830754199
 GameObject:
   m_ObjectHideFlags: 0
