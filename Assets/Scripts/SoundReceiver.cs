@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundReceiver : MonoBehaviour {
 
-    public enum BlockType { Activate, Hide, Grow, Move, Rotate }
+    public enum BlockType { Activate, Hide, Grow, Move, Rotate, Command }
     public BlockType type = BlockType.Activate;
     public bool triggerOnSpeaking;
 
@@ -46,6 +46,8 @@ public class SoundReceiver : MonoBehaviour {
             case BlockType.Move:
                 break;
             case BlockType.Rotate:
+                break;
+            case BlockType.Command:
                 break;
             }
 	}
@@ -168,6 +170,8 @@ public class SoundReceiver : MonoBehaviour {
                     break;
                 case BlockType.Rotate:
                     break;
+                case BlockType.Command:
+                    break;
                 }
             }
         receiveInput = true;
@@ -197,6 +201,8 @@ public class SoundReceiver : MonoBehaviour {
             case BlockType.Move:
                 break;
             case BlockType.Rotate:
+                break;
+            case BlockType.Command:
                 break;
             }
         receiveInput = true;
