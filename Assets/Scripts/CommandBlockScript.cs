@@ -8,11 +8,13 @@ public class CommandBlockScript : MonoBehaviour {
     //public Vector3 rightPos;
 
     //public float offset;
-    public float moveSpeed = 1f;
+    public float moveSpeed = 20f;
 
     private Vector3 left = new Vector3(-1, 0), right = new Vector3(1, 0), up = new Vector3(0, 1), down = new Vector3(0, -1);
     public enum Directions { Up, Down, Left, Right, Stop };
     public Directions dir = Directions.Stop;
+    private Rigidbody2D rb;
+    private string lastDir;
     //public bool startLeft;
     //public bool startRight;
     //private Vector3 pos;
@@ -31,6 +33,7 @@ public class CommandBlockScript : MonoBehaviour {
 
     void Start () {
         gameObject.tag = "MovingPlatform";
+        rb = GetComponent<Rigidbody2D>();
         //col = gameObject.GetComponent<Collider2D>();
         //earshotCol = GameObject.Find("Earshot").GetComponent<Collider2D>();
         //pos = transform.position;
@@ -51,18 +54,39 @@ public class CommandBlockScript : MonoBehaviour {
         switch (dir)
             {
             case Directions.Up:
-                transform.position = transform.position + (up * moveSpeed * Time.deltaTime);
+                //transform.position = transform.position + (up * moveSpeed * Time.deltaTime);
+                if (lastDir != "Up")
+                    {
+                    lastDir = null;
+                    rb.velocity = up * moveSpeed * Time.deltaTime;
+                    }
                 break;
             case Directions.Down:
-                transform.position = transform.position + (down * moveSpeed * Time.deltaTime);
+                //transform.position = transform.position + (down * moveSpeed * Time.deltaTime);
+                if (lastDir != "Down")
+                    {
+                    lastDir = null;
+                    rb.velocity = down * moveSpeed * Time.deltaTime;
+                    }
                 break;
             case Directions.Left:
-                transform.position = transform.position + (left * moveSpeed * Time.deltaTime);
+                //transform.position = transform.position + (left * moveSpeed * Time.deltaTime);
+                if (lastDir != "Left")
+                    {
+                    lastDir = null;
+                    rb.velocity = left * moveSpeed * Time.deltaTime;
+                    }
                 break;
             case Directions.Right:
-                transform.position = transform.position + (right * moveSpeed * Time.deltaTime);
+                //transform.position = transform.position + (right * moveSpeed * Time.deltaTime);
+                if (lastDir != "Right")
+                    {
+                    lastDir = null;
+                    rb.velocity = right * moveSpeed * Time.deltaTime;
+                    }
                 break;
             case Directions.Stop:
+                rb.velocity = new Vector2(0,0);
                 break;
             }
         //if (MicrophoneScript.command == "Left")
@@ -115,5 +139,31 @@ public class CommandBlockScript : MonoBehaviour {
         //        }
         //    }
         }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+        {
+        if (collision.gameObject.tag != "Player")
+            {
+            switch (dir)
+                {
+                case Directions.Up:
+                    lastDir = "Up";
+                    break;
+                case Directions.Down:
+                    lastDir = "Down";
+                    break;
+                case Directions.Left:
+                    lastDir = "Left";
+                    break;
+                case Directions.Right:
+                    lastDir = "Right";
+                    break;
+                case Directions.Stop:
+                    break;
+                }
+            MicrophoneScript.command = "Stop";
+            }
+        }
     }
+    
 

@@ -10,7 +10,7 @@ public class MicrophoneScript : MonoBehaviour {
     public string micName;
     public AudioSource audioSource;
     public AudioClip micAudio;
-    public int samples = 128;
+    public int samples = 32;
 
     public AudioMixerGroup mixMic;
     public AudioMixerGroup master;
@@ -55,14 +55,14 @@ public class MicrophoneScript : MonoBehaviour {
         StartCoroutine(VolCheck());
 
         //Create keywords for keyword recognizer
-        keywords.Add("red", () =>
-        {
-            cam.backgroundColor = red;
-        });
-        keywords.Add("blue", () =>
-        {
-            cam.backgroundColor = blue;
-        });
+        //keywords.Add("red", () =>
+        //{
+        //    cam.backgroundColor = red;
+        //});
+        //keywords.Add("blue", () =>
+        //{
+        //    cam.backgroundColor = blue;
+        //});
         keywords.Add("stop", () =>
         {
             command = "Stop";

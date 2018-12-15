@@ -146,53 +146,43 @@ public class SoundReceiver : MonoBehaviour {
     IEnumerator OnSpeaking()
         {
         receiveInput = false;
-        if (triggerOnSpeaking)
+        while (true)
             {
-            switch (type)
+            if (triggerOnSpeaking)
                 {
-                case BlockType.Activate:
-                    srend.sprite = onSprite;
-                    col.enabled = true;
-                    yield return new WaitForSeconds(delay);
-                    srend.sprite = offSprite;
-                    col.enabled = false;
-                    break;
-                case BlockType.Hide:
-                    srend.sprite = offSprite;
-                    col.enabled = false;
-                    yield return new WaitForSeconds(delay);
-                    srend.sprite = onSprite;
-                    col.enabled = true;
-                    break;
-                case BlockType.Grow:
-                    break;
-                case BlockType.Move:
-                    break;
-                case BlockType.Rotate:
-                    break;
-                case BlockType.Command:
-                    break;
+                switch (type)
+                    {
+                    case BlockType.Activate:
+                        srend.sprite = onSprite;
+                        col.enabled = true;
+                        break;
+                    case BlockType.Hide:
+                        srend.sprite = offSprite;
+                        col.enabled = false;
+                        break;
+                    case BlockType.Grow:
+                        break;
+                    case BlockType.Move:
+                        break;
+                    case BlockType.Rotate:
+                        break;
+                    case BlockType.Command:
+                        break;
+                    }
+                }
+            yield return new WaitForSeconds(delay);
+            if (MicrophoneScript.volume < speakThreshold)
+                {
+                break;
                 }
             }
-        receiveInput = true;
-        }
-
-    IEnumerator OnShouting()
-        {
-        receiveInput = false;
         switch (type)
             {
             case BlockType.Activate:
-                srend.sprite = onSprite;
-                col.enabled = true;
-                yield return new WaitForSeconds(delay);
                 srend.sprite = offSprite;
                 col.enabled = false;
                 break;
             case BlockType.Hide:
-                srend.sprite = offSprite;
-                col.enabled = false;
-                yield return new WaitForSeconds(delay);
                 srend.sprite = onSprite;
                 col.enabled = true;
                 break;
@@ -206,6 +196,64 @@ public class SoundReceiver : MonoBehaviour {
                 break;
             }
         receiveInput = true;
+        }
+
+    IEnumerator OnShouting()
+        {
+        receiveInput = false;
+        while (true)
+            {
+            switch (type)
+                {
+                case BlockType.Activate:
+                    srend.sprite = onSprite;
+                    col.enabled = true;
+                    //yield return new WaitForSeconds(delay);
+                    //srend.sprite = offSprite;
+                    //col.enabled = false;
+                    break;
+                case BlockType.Hide:
+                    srend.sprite = offSprite;
+                    col.enabled = false;
+                    //yield return new WaitForSeconds(delay);
+                    //srend.sprite = onSprite;
+                    //col.enabled = true;
+                    break;
+                case BlockType.Grow:
+                    break;
+                case BlockType.Move:
+                    break;
+                case BlockType.Rotate:
+                    break;
+                case BlockType.Command:
+                    break;
+                }
+            yield return new WaitForSeconds(delay);
+            if (MicrophoneScript.volume < speakThreshold)
+                {
+                break;
+                }
+            }
+        switch (type)
+            {
+            case BlockType.Activate:
+                srend.sprite = offSprite;
+                col.enabled = false;
+                break;
+            case BlockType.Hide:
+                srend.sprite = onSprite;
+                col.enabled = true;
+                break;
+            case BlockType.Grow:
+                break;
+            case BlockType.Move:
+                break;
+            case BlockType.Rotate:
+                break;
+            case BlockType.Command:
+                break;
+            }
+                receiveInput = true;
         }
 
     public void Grow()
