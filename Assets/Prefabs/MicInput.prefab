@@ -150,7 +150,7 @@ MonoBehaviour:
   micName: 
   audioSource: {fileID: 0}
   micAudio: {fileID: 0}
-  samples: 128
+  samples: 2
   mixMic: {fileID: 243994653977098056, guid: 636e743ede508864280bee0327ce3922, type: 2}
   master: {fileID: 0}
   sensitivity: 10

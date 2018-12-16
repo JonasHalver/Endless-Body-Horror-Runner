@@ -1,12 +1,61 @@
 fileFormatVersion: 2
 guid: 2a4387d761d03fe449a2c0b938b3f16e
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: yellgame_cloudsTileset_seethrough_0
+    21300002: yellgame_cloudsTileset_seethrough_2
+    21300004: yellgame_cloudsTileset_seethrough_3
+    21300006: yellgame_cloudsTileset_seethrough_4
+    21300008: yellgame_cloudsTileset_seethrough_5
+    21300010: yellgame_cloudsTileset_seethrough_6
+    21300012: yellgame_cloudsTileset_seethrough_7
+    21300014: yellgame_cloudsTileset_seethrough_8
+    21300016: yellgame_cloudsTileset_seethrough_9
+    21300018: yellgame_cloudsTileset_seethrough_10
+    21300020: yellgame_cloudsTileset_seethrough_11
+    21300022: yellgame_cloudsTileset_seethrough_12
+    21300024: yellgame_cloudsTileset_seethrough_13
+    21300026: yellgame_cloudsTileset_seethrough_14
+    21300028: yellgame_cloudsTileset_seethrough_15
+    21300030: yellgame_cloudsTileset_seethrough_16
+    21300032: yellgame_cloudsTileset_seethrough_17
+    21300034: yellgame_cloudsTileset_seethrough_18
+    21300036: yellgame_cloudsTileset_seethrough_19
+    21300038: yellgame_cloudsTileset_seethrough_20
+    21300040: yellgame_cloudsTileset_seethrough_21
+    21300042: yellgame_cloudsTileset_seethrough_22
+    21300044: yellgame_cloudsTileset_seethrough_23
+    21300046: yellgame_cloudsTileset_seethrough_24
+    21300048: yellgame_cloudsTileset_seethrough_25
+    21300050: yellgame_cloudsTileset_seethrough_26
+    21300052: yellgame_cloudsTileset_seethrough_27
+    21300054: yellgame_cloudsTileset_seethrough_28
+    21300056: yellgame_cloudsTileset_seethrough_29
+    21300058: yellgame_cloudsTileset_seethrough_30
+    21300060: yellgame_cloudsTileset_seethrough_31
+    21300062: yellgame_cloudsTileset_seethrough_32
+    21300064: yellgame_cloudsTileset_seethrough_33
+    21300066: yellgame_cloudsTileset_seethrough_34
+    21300068: yellgame_cloudsTileset_seethrough_35
+    21300070: yellgame_cloudsTileset_seethrough_36
+    21300072: yellgame_cloudsTileset_seethrough_37
+    21300074: yellgame_cloudsTileset_seethrough_38
+    21300076: yellgame_cloudsTileset_seethrough_39
+    21300078: yellgame_cloudsTileset_seethrough_40
+    21300080: yellgame_cloudsTileset_seethrough_41
+    21300082: yellgame_cloudsTileset_seethrough_42
+    21300084: yellgame_cloudsTileset_seethrough_43
+    21300086: yellgame_cloudsTileset_seethrough_44
+    21300088: yellgame_cloudsTileset_seethrough_45
+    21300090: yellgame_cloudsTileset_seethrough_46
+    21300092: yellgame_cloudsTileset_seethrough_47
+    21300094: yellgame_cloudsTileset_seethrough_1
+    21300096: yellgame_cloudsTileset_seethrough_48
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,24 +83,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -69,13 +118,1026 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3018
+        width: 1983
+        height: 439
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6cf588667266d4b8a8ffce0633c78e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_2
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 3047
+        width: 841
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07571e5433c1d8144b970ef2d1a8f78b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_3
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3065
+        width: 617
+        height: 282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d398bbc7a012c49bf7dd6de038d4ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_4
+      rect:
+        serializedVersion: 2
+        x: 4051
+        y: 3122
+        width: 603
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9b24d2bf8e5c542b4427b49f40b71f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_5
+      rect:
+        serializedVersion: 2
+        x: 4795
+        y: 3088
+        width: 496
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc34803720d89d4cb5630c97bf1ba41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_6
+      rect:
+        serializedVersion: 2
+        x: 5470
+        y: 3151
+        width: 190
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05197fb134465b4d9c6931d37b149bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_7
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 3140
+        width: 242
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbbd0ae3db85f64a9eda35c5b1179f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_8
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 3093
+        width: 352
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff2a385a34b0a040a6dc95a7c1e3257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_9
+      rect:
+        serializedVersion: 2
+        x: 6543
+        y: 3041
+        width: 669
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b228a9ea987a014a9160a677fa58d27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_10
+      rect:
+        serializedVersion: 2
+        x: 7339
+        y: 3059
+        width: 409
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c766ffbaeb315024298f7e958a075054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2511
+        width: 1983
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735765e2e6bad3a498700b175fb02c72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_12
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 2511
+        width: 1989
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ed0313363c22043887590d668d5f01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_13
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 2528
+        width: 1026
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed488be426b19d74e94e122b2f023d62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_14
+      rect:
+        serializedVersion: 2
+        x: 5516
+        y: 2511
+        width: 981
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a47b51e33615247b52b36c244ea8d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_15
+      rect:
+        serializedVersion: 2
+        x: 6774
+        y: 2517
+        width: 997
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b1ba86d917b804fa9098069517e224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_16
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1769
+        width: 1983
+        height: 442
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb161314ee9d974f8fac94d1d0cb2aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_17
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 1802
+        width: 841
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ce978646cd7fb408f68b0f8bf86dc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_18
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1813
+        width: 617
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2386c50cd8233e04fbeab25b9b424e7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_19
+      rect:
+        serializedVersion: 2
+        x: 4051
+        y: 1877
+        width: 602
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d6a13bccb869b4e901fef4e7fdc1de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_20
+      rect:
+        serializedVersion: 2
+        x: 4795
+        y: 1836
+        width: 496
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ae7593c41edd14f845d4f401f00921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_21
+      rect:
+        serializedVersion: 2
+        x: 5470
+        y: 1900
+        width: 190
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba377f08f878cc409ce63ad485144c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_22
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 1888
+        width: 242
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819674fa5a5cea54aaa0fd7178dc4141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_23
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 1842
+        width: 352
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a579d1927d40d4eb74b572c59937db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_24
+      rect:
+        serializedVersion: 2
+        x: 6543
+        y: 1790
+        width: 669
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dcdfbda74c79f4fa964608edea3983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_25
+      rect:
+        serializedVersion: 2
+        x: 7339
+        y: 1808
+        width: 409
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030676006da12ad4ba99bcbc84fcad67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_26
+      rect:
+        serializedVersion: 2
+        x: 7979
+        y: 1261
+        width: 1020
+        height: 996
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 212, y: 118, z: 204, w: 195}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f36bac04067532418dcf0420ab0cf7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1266
+        width: 1980
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc5418c603faf0419177e4ba40312f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_28
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 1260
+        width: 1989
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d89d65ee452ce4bbc21aa6ed919f13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_29
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 1277
+        width: 1026
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4018714fbc8b74685edcdbdcb4c88f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_30
+      rect:
+        serializedVersion: 2
+        x: 5516
+        y: 1260
+        width: 981
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67eb7528f5242a4daed3d1ca768c453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_31
+      rect:
+        serializedVersion: 2
+        x: 6774
+        y: 1266
+        width: 997
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85753e5330be4cb49b81c96056eed77a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_32
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 505
+        width: 1983
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cab430b86e2a94aab52d1158f3af11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_33
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 533
+        width: 841
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b78004fd6f682244aa94de24908abc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_34
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 545
+        width: 617
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a9dd09dff5ac64db1c33c5bfba8139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_35
+      rect:
+        serializedVersion: 2
+        x: 4051
+        y: 608
+        width: 603
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e36f32485eaca45927373e0f34c810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_36
+      rect:
+        serializedVersion: 2
+        x: 4795
+        y: 570
+        width: 496
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd54474d94d0dc84c8323b171ee6c007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_37
+      rect:
+        serializedVersion: 2
+        x: 5470
+        y: 637
+        width: 190
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b65fb04c3ea81943bfab4292e96c373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_38
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 620
+        width: 242
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302d45cb01a6f5c4c89a782347601b46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_39
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 574
+        width: 352
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb353fcdcb658c4195d261d65adda7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_40
+      rect:
+        serializedVersion: 2
+        x: 6543
+        y: 522
+        width: 669
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9340be51d3c513a4fa8d374d8889bf2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_41
+      rect:
+        serializedVersion: 2
+        x: 7339
+        y: 545
+        width: 409
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9c0027fb65b774a85d325a4d62be50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_42
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 0
+        width: 1
+        height: 595
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 196, y: 164, z: 181, w: 205}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3f751eb47d6b946bc194cb5cde4c16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 1984
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fdae332f43a624bb4f4b37002fbead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_44
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 0
+        width: 1989
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7220c14d23b47f4ca8d04d579c438fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_45
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 9
+        width: 1026
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48fba9eb236c33419a2f10d861e58de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_46
+      rect:
+        serializedVersion: 2
+        x: 5516
+        y: 0
+        width: 981
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46d8eb68b770104cbb9347a391b16f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_47
+      rect:
+        serializedVersion: 2
+        x: 6774
+        y: 3
+        width: 997
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27d9abefd828034e9664681ec594927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_1
+      rect:
+        serializedVersion: 2
+        x: 7976
+        y: 2522
+        width: 1035
+        height: 993
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 322, y: 152, z: 213, w: 222}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ce95a33aae22d4089c55d91fc81080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_seethrough_48
+      rect:
+        serializedVersion: 2
+        x: 7985
+        y: 20
+        width: 1023
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 184, y: 137, z: 179, w: 236}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e4512096dfaac4ebac08df773e43fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 56f3057a24cb3e64a83403654a0d3dd7
     vertices: []
     indices: 
     edges: []

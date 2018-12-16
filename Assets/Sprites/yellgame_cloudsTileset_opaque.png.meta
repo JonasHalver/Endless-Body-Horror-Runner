@@ -1,12 +1,60 @@
 fileFormatVersion: 2
 guid: 6d3d916d908f20e43982a472275ebcd7
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: yellgame_cloudsTileset_opaque_0
+    21300002: yellgame_cloudsTileset_opaque_2
+    21300004: yellgame_cloudsTileset_opaque_3
+    21300006: yellgame_cloudsTileset_opaque_4
+    21300008: yellgame_cloudsTileset_opaque_5
+    21300010: yellgame_cloudsTileset_opaque_6
+    21300012: yellgame_cloudsTileset_opaque_7
+    21300014: yellgame_cloudsTileset_opaque_8
+    21300016: yellgame_cloudsTileset_opaque_9
+    21300018: yellgame_cloudsTileset_opaque_10
+    21300020: yellgame_cloudsTileset_opaque_11
+    21300022: yellgame_cloudsTileset_opaque_12
+    21300024: yellgame_cloudsTileset_opaque_13
+    21300026: yellgame_cloudsTileset_opaque_14
+    21300028: yellgame_cloudsTileset_opaque_15
+    21300030: yellgame_cloudsTileset_opaque_16
+    21300032: yellgame_cloudsTileset_opaque_17
+    21300034: yellgame_cloudsTileset_opaque_18
+    21300036: yellgame_cloudsTileset_opaque_19
+    21300038: yellgame_cloudsTileset_opaque_20
+    21300040: yellgame_cloudsTileset_opaque_21
+    21300042: yellgame_cloudsTileset_opaque_22
+    21300044: yellgame_cloudsTileset_opaque_23
+    21300046: yellgame_cloudsTileset_opaque_24
+    21300048: yellgame_cloudsTileset_opaque_25
+    21300050: yellgame_cloudsTileset_opaque_26
+    21300052: yellgame_cloudsTileset_opaque_27
+    21300054: yellgame_cloudsTileset_opaque_28
+    21300056: yellgame_cloudsTileset_opaque_29
+    21300058: yellgame_cloudsTileset_opaque_30
+    21300060: yellgame_cloudsTileset_opaque_31
+    21300062: yellgame_cloudsTileset_opaque_32
+    21300064: yellgame_cloudsTileset_opaque_33
+    21300066: yellgame_cloudsTileset_opaque_34
+    21300068: yellgame_cloudsTileset_opaque_35
+    21300070: yellgame_cloudsTileset_opaque_36
+    21300072: yellgame_cloudsTileset_opaque_37
+    21300074: yellgame_cloudsTileset_opaque_38
+    21300076: yellgame_cloudsTileset_opaque_39
+    21300078: yellgame_cloudsTileset_opaque_40
+    21300080: yellgame_cloudsTileset_opaque_41
+    21300082: yellgame_cloudsTileset_opaque_42
+    21300084: yellgame_cloudsTileset_opaque_43
+    21300086: yellgame_cloudsTileset_opaque_44
+    21300088: yellgame_cloudsTileset_opaque_45
+    21300090: yellgame_cloudsTileset_opaque_46
+    21300092: yellgame_cloudsTileset_opaque_47
+    21300094: yellgame_cloudsTileset_opaque_1
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,24 +82,24 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -69,13 +117,1006 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_0
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3018
+        width: 1983
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2088532b53b51c499489ec12fb10163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_2
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 3047
+        width: 841
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336a57b9a28f05544924987afe58317d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_3
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 3065
+        width: 617
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fac8a3173025e41baaa4bfbf7d01b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_4
+      rect:
+        serializedVersion: 2
+        x: 4051
+        y: 3122
+        width: 603
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aa2aa6e82068d46905c640954a6410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_5
+      rect:
+        serializedVersion: 2
+        x: 4795
+        y: 3088
+        width: 496
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4087abaf59553a54585aaefb86ac3e49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_6
+      rect:
+        serializedVersion: 2
+        x: 5470
+        y: 3151
+        width: 190
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ce995ea1fe66240a2f57f38a9526b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_7
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 3140
+        width: 242
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91249db2afde4224aa50206e06b4dd04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_8
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 3093
+        width: 352
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2073eee2452f33d48b57b623ca3e24af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_9
+      rect:
+        serializedVersion: 2
+        x: 6543
+        y: 3041
+        width: 669
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f14a545a5691c043808b49c1b2a726b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_10
+      rect:
+        serializedVersion: 2
+        x: 7339
+        y: 3059
+        width: 409
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ea52266dd63704ca28f7161b759c73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2511
+        width: 1983
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8033a4db8d7a14ca902c2582a90f0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_12
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 2511
+        width: 1989
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a1554572160bf4aa930c37140b489c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_13
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 2528
+        width: 1026
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542161a814e5a2d4db4513d4dda1a29f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_14
+      rect:
+        serializedVersion: 2
+        x: 5516
+        y: 2511
+        width: 981
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4781cb65c88644da1b5f968b681c7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_15
+      rect:
+        serializedVersion: 2
+        x: 6774
+        y: 2517
+        width: 997
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1858336523935da42b5d6695c9eb1774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_16
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1769
+        width: 1983
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1b294d34e827a459a8e192bbeacfb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_17
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 1802
+        width: 841
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d639fac701e044f90bce0f22879213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_18
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 1813
+        width: 617
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ac63ea22185a043abe007a93a30e4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_19
+      rect:
+        serializedVersion: 2
+        x: 4051
+        y: 1877
+        width: 602
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91169c17c8b38ae4abffb87a05608aa4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_20
+      rect:
+        serializedVersion: 2
+        x: 4795
+        y: 1836
+        width: 496
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed397d60208a2e4409b7b6682e6f0a3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_21
+      rect:
+        serializedVersion: 2
+        x: 5470
+        y: 1900
+        width: 190
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206a45cac8a3598479d7b20740ce8a9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_22
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 1888
+        width: 242
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092f9b59c81d9ee4e9cfe11c7cd76f77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_23
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 1842
+        width: 352
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b52824dd3a30d4bb4414a64c43be45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_24
+      rect:
+        serializedVersion: 2
+        x: 6543
+        y: 1790
+        width: 669
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a577dde1d99338640a56f08bf0b98bb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_25
+      rect:
+        serializedVersion: 2
+        x: 7339
+        y: 1808
+        width: 409
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc0d338dedfc5c44a990793cc76327c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_26
+      rect:
+        serializedVersion: 2
+        x: 7979
+        y: 1261
+        width: 1020
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 223, y: 169, z: 205, w: 218}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09f81ec20e44c14582f4ca42d38186e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1266
+        width: 1980
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6289ad8d60509e4aa90f77ff36b60bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_28
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 1260
+        width: 1989
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2540acb72da0694cb68adc88e695c3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_29
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 1277
+        width: 1026
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d5a46a1b180574b88015f0bbcd4897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_30
+      rect:
+        serializedVersion: 2
+        x: 5516
+        y: 1260
+        width: 981
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a641945a142585547b0b0f146c23c23f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_31
+      rect:
+        serializedVersion: 2
+        x: 6774
+        y: 1266
+        width: 997
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a3593b1778715469bfc4499d6e756e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_32
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 505
+        width: 1983
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad96d800e1790ff48b4c6689eb1aaaa1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_33
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 533
+        width: 841
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc2fb06e9a1c8d4d8f1e436ebba5643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_34
+      rect:
+        serializedVersion: 2
+        x: 3250
+        y: 545
+        width: 617
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf18bfb5306bc542b381cdd6f0b2f7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_35
+      rect:
+        serializedVersion: 2
+        x: 4051
+        y: 608
+        width: 603
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676df0920d158b04287b5dc7a0177527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_36
+      rect:
+        serializedVersion: 2
+        x: 4795
+        y: 570
+        width: 496
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84aea792fe93ae489c30d08dd05dbda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_37
+      rect:
+        serializedVersion: 2
+        x: 5470
+        y: 637
+        width: 190
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877e54bd80ef76b438aa3a71db2ca583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_38
+      rect:
+        serializedVersion: 2
+        x: 5718
+        y: 620
+        width: 242
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70e8f2baa422d146a9dc18985c45d36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_39
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 574
+        width: 352
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dbf7e2bce9f724da58d19d22fa14da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_40
+      rect:
+        serializedVersion: 2
+        x: 6543
+        y: 522
+        width: 669
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb847a7364946c40a539731c74163df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_41
+      rect:
+        serializedVersion: 2
+        x: 7339
+        y: 545
+        width: 409
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2b1c85c5ca9f94286cb08846791d71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_42
+      rect:
+        serializedVersion: 2
+        x: 7979
+        y: 0
+        width: 1020
+        height: 989
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 223, y: 164, z: 205, w: 229}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7c23b07d9d07448855d4f811e26f39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 1984
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688b70a178d59b747bdc77c291f0b93c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_44
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 0
+        width: 1989
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c589767e1e354d743a11c965fc672210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_45
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 9
+        width: 1026
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b56e47304786174784af2698b5a1485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_46
+      rect:
+        serializedVersion: 2
+        x: 5516
+        y: 0
+        width: 981
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9a766e3675fee4fa7ad52365d7b94a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_47
+      rect:
+        serializedVersion: 2
+        x: 6774
+        y: 3
+        width: 997
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41438e1276c56374999ac447495b79ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_cloudsTileset_opaque_1
+      rect:
+        serializedVersion: 2
+        x: 7972
+        y: 2509
+        width: 1043
+        height: 1002
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 156, y: 174, z: 193, w: 234}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b295865c9736d4c42b34c6f5ebcc56b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 24018f501684221479e191fd8481e015
     vertices: []
     indices: 
     edges: []
