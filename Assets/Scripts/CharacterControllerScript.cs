@@ -14,7 +14,8 @@ public class CharacterControllerScript : MonoBehaviour {
     private float negativeJump;
     private float jump;
     public float airMovementMod = 2f;
-    private float msHolder; 
+    private float msHolder;
+    public int score = 0;
 
     private Collider2D col;
     private bool isAirborne = false, onMovingPlatform, isJumping;
@@ -248,6 +249,11 @@ public class CharacterControllerScript : MonoBehaviour {
                 MicrophoneScript.command = "Stop";
                 }
             NewZone();
+            }
+        if (other.tag == "Point")
+            {
+            Destroy(other);
+            score++;
             }
         }
 
