@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 114000967265945802}
   m_Layer: 0
   m_Name: HideCloud 7
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 1
-  triggerOnSpeaking: 0
+  triggerOnSpeaking: 1
   onSprite: {fileID: 21300042, guid: 6d3d916d908f20e43982a472275ebcd7, type: 3}
   offSprite: {fileID: 21300042, guid: 2a4387d761d03fe449a2c0b938b3f16e, type: 3}
   shoutThreshold: 0.75
