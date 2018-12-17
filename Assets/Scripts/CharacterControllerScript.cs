@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterControllerScript : MonoBehaviour {
 
@@ -40,7 +41,7 @@ public class CharacterControllerScript : MonoBehaviour {
         msHolder = movementSpeed;
         anim = GetComponent<Animator>();
         sRenderer = GetComponent<SpriteRenderer>();
-        respawn = GameObject.FindGameObjectWithTag("Respawn");
+        //respawn = GameObject.FindGameObjectWithTag("Respawn");
 	}
 
     private void Update()
@@ -61,9 +62,10 @@ public class CharacterControllerScript : MonoBehaviour {
             {
             if (Input.GetButtonDown("Reset"))
                 {
-                transform.position = respawn.transform.position;
-                isDead = false;
-                anim.SetTrigger("reset");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                //transform.position = respawn.transform.position;
+                //isDead = false;
+                //anim.SetTrigger("reset");
                 }
             }
 
@@ -245,6 +247,12 @@ public class CharacterControllerScript : MonoBehaviour {
                 {
                 MicrophoneScript.command = "Stop";
                 }
+            NewZone();
             }
+        }
+
+    void NewZone()
+        {
+        //respawn = CameraController.currentZone.transform.parent.Find("Respawn").gameObject;
         }
     }
