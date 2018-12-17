@@ -16,7 +16,7 @@ public class CharacterControllerScript : MonoBehaviour {
     private float msHolder; 
 
     private Collider2D col;
-    public bool isAirborne = false;
+    private bool isAirborne = false, onMovingPlatform;
 
     private Vector2 upGravity = new Vector2 (0, 9.81f);
     private Vector2 downGravity = new Vector2 (0, -9.81f);
@@ -64,6 +64,22 @@ public class CharacterControllerScript : MonoBehaviour {
                 isDead = false;
                 anim.SetTrigger("reset");
                 }
+            }
+
+        if (!onMovingPlatform)
+            {
+            if (rb.velocity.y != 0)
+                {
+                isAirborne = true;
+                }
+            else
+                {
+                isAirborne = false;
+                }
+            }
+        else
+            {
+            isAirborne = false;
             }
 
         if (!isDead)
@@ -127,8 +143,14 @@ public class CharacterControllerScript : MonoBehaviour {
 
     void FixedUpdate()
         {
-        anim.SetFloat("upwardsVelocity", rb.velocity.y);
-
+        if (!onMovingPlatform)
+            {
+            anim.SetFloat("upwardsVelocity", rb.velocity.y);
+            }
+        else
+            {
+            anim.SetFloat("upwardsVelocity", 0f);
+            }
         
         if (usePhysics)
             {
@@ -150,7 +172,7 @@ public class CharacterControllerScript : MonoBehaviour {
         {
         if (collision.gameObject.tag == "Ground")
             {
-            isAirborne = false;
+            //isAirborne = false;
             movementSpeed = msHolder / 2;
             recentFlip = false;
             anim.SetTrigger("landedTrigger");
@@ -159,7 +181,9 @@ public class CharacterControllerScript : MonoBehaviour {
         if (collision.gameObject.tag == "MovingPlatform")
             {
             transform.parent = collision.transform;
-            isAirborne = false;
+            //isAirborne = false;
+            onMovingPlatform = true;
+            Debug.Log("On Moving Platform");
             movementSpeed = msHolder / 2;
             recentFlip = false;
             anim.SetTrigger("landedTrigger");
@@ -170,12 +194,14 @@ public class CharacterControllerScript : MonoBehaviour {
         if (collision.gameObject.tag == "Ground")
             {
             //movementSpeed = msHolder / airMovementMod;
-            isAirborne = true;
+            //isAirborne = true;
             }
         if (collision.gameObject.tag == "MovingPlatform")
             {
             transform.parent = null;
-            isAirborne = true;
+            onMovingPlatform = false;
+            Debug.Log("Left Moving Platform");
+            //isAirborne = true;
             }
 
         }
