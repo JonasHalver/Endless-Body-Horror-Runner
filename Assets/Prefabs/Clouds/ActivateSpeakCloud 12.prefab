@@ -23,9 +23,8 @@ GameObject:
   - component: {fileID: 50657633680220310}
   - component: {fileID: 61637266141447588}
   - component: {fileID: 114228738540206658}
-  - component: {fileID: 114226322429640334}
   m_Layer: 0
-  m_Name: CommandCloud 12
+  m_Name: ActivateSpeakCloud 12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89,19 +88,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.235217, y: 0.32104278}
   m_EdgeRadius: 0
---- !u!114 &114226322429640334
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1170301496926930}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 712fe3b5a6f227742bfc3cff2b41b9d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 20
-  dir: 4
 --- !u!114 &114228738540206658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -113,10 +99,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8f432febf4f8d438998914bad87b20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 5
-  triggerOnSpeaking: 0
-  onSprite: {fileID: 0}
-  offSprite: {fileID: 0}
+  type: 0
+  triggerOnSpeaking: 1
+  onSprite: {fileID: 21300086, guid: 6d3d916d908f20e43982a472275ebcd7, type: 3}
+  offSprite: {fileID: 21300086, guid: 2a4387d761d03fe449a2c0b938b3f16e, type: 3}
   shoutThreshold: 0.75
   speakThreshold: 0.15
   delay: 1

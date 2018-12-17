@@ -138,7 +138,7 @@ public class CharacterControllerScript : MonoBehaviour {
                     }
                 if (!isAirborne)
                     {
-                    movementSpeed = Mathf.Lerp(movementSpeed, msHolder, 2 * Time.deltaTime);
+                    movementSpeed = Mathf.Lerp(movementSpeed, msHolder, 4 * Time.deltaTime);
                     }
                 }
             }
@@ -179,12 +179,15 @@ public class CharacterControllerScript : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
         {
-        if (collision.gameObject.tag == "Ground")
+        if (isAirborne)
             {
-            //isAirborne = false;
-            movementSpeed = msHolder / 2;
-            recentFlip = false;
-            anim.SetTrigger("landedTrigger");
+            if (collision.gameObject.tag == "Ground")
+                {
+                //isAirborne = false;
+                movementSpeed = msHolder / 2;
+                recentFlip = false;
+                anim.SetTrigger("landedTrigger");
+                }
             }
 
         if (collision.gameObject.tag == "MovingPlatform")
