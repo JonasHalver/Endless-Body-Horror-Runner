@@ -16,7 +16,8 @@ public class CharacterControllerScript : MonoBehaviour {
     private float msHolder; 
 
     private Collider2D col;
-    private bool isAirborne = false, onMovingPlatform;
+    private bool isAirborne = false, onMovingPlatform, isJumping;
+    private GameObject platform;
 
     private Vector2 upGravity = new Vector2 (0, 9.81f);
     private Vector2 downGravity = new Vector2 (0, -9.81f);
@@ -95,6 +96,8 @@ public class CharacterControllerScript : MonoBehaviour {
                     if (!isAirborne)
                         {
                         rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+                        isJumping = true;
+                        StartCoroutine(JumpDelay());
                         //isAirborne = true;
                         //Jump();
                         anim.SetTrigger("jumpTrigger");
@@ -143,6 +146,7 @@ public class CharacterControllerScript : MonoBehaviour {
 
     void FixedUpdate()
         {
+
         if (!onMovingPlatform)
             {
             anim.SetFloat("upwardsVelocity", rb.velocity.y);
@@ -150,8 +154,13 @@ public class CharacterControllerScript : MonoBehaviour {
         else
             {
             anim.SetFloat("upwardsVelocity", 0f);
+            if (!isJumping)
+                {
+                rb.velocity = new Vector2(rb.velocity.x, platform.GetComponent<Rigidbody2D>().velocity.y);
+                }
             }
-        
+            
+
         if (usePhysics)
             {
             rb.AddForce(new Vector2(Input.GetAxis("Horizontal"), 0f) * movementSpeed);
@@ -183,7 +192,7 @@ public class CharacterControllerScript : MonoBehaviour {
             transform.parent = collision.transform;
             //isAirborne = false;
             onMovingPlatform = true;
-            Debug.Log("On Moving Platform");
+            platform = collision.gameObject;
             movementSpeed = msHolder / 2;
             recentFlip = false;
             anim.SetTrigger("landedTrigger");
@@ -200,10 +209,16 @@ public class CharacterControllerScript : MonoBehaviour {
             {
             transform.parent = null;
             onMovingPlatform = false;
-            Debug.Log("Left Moving Platform");
+            platform = null;
             //isAirborne = true;
             }
 
+        }
+
+    IEnumerator JumpDelay()
+        {
+        yield return new WaitForSeconds(0.5f);
+        isJumping = false;
         }
 
     IEnumerator Shout()
