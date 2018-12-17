@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   usePhysics: 0
   movementSpeed: 8
-  maxSpeed: 5
+  maxSpeed: 10
   jumpForce: 6
   airMovementMod: 2
   shoutThreshold: 0.8
