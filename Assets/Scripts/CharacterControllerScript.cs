@@ -137,7 +137,7 @@ public class CharacterControllerScript : MonoBehaviour {
 
                 if (isAirborne)
                     {
-                    movementSpeed = Mathf.Lerp(movementSpeed, msHolder / airMovementMod, 1 * Time.deltaTime);
+                    movementSpeed = Mathf.Lerp(movementSpeed, msHolder / airMovementMod, 4 * Time.deltaTime);
                     }
                 if (!isAirborne)
                     {
