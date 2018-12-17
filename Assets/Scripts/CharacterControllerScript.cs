@@ -252,7 +252,7 @@ public class CharacterControllerScript : MonoBehaviour {
             }
         if (other.tag == "Point")
             {
-            Destroy(other);
+            Destroy(other.gameObject);
             score++;
             }
         }
