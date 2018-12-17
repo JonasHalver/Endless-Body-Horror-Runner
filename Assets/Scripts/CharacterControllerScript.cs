@@ -239,5 +239,12 @@ public class CharacterControllerScript : MonoBehaviour {
             isDead = true;
             anim.SetTrigger("death");
             }
+        if (other.tag == "CamZone")
+            {
+            if (!onMovingPlatform)
+                {
+                MicrophoneScript.command = "Stop";
+                }
+            }
         }
     }
