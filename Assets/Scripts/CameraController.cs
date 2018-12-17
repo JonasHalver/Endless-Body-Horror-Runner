@@ -5,10 +5,11 @@ using UnityEngine;
 public class CameraController : MonoBehaviour {
 
     public GameObject player;
-    public Collider2D col;
-    public bool movingCam = true;
+    //public Collider2D col;
+    //public bool movingCam = true;
+    public static GameObject currentZone;
 
-    public float camSpeed = 0.5f;
+    public float camSpeed = 5f;
     
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
@@ -17,19 +18,9 @@ public class CameraController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void LateUpdate () {
-        if (!col.IsTouching(player.GetComponent<Collider2D>()))
+        if (currentZone != null)
             {
-            if (player.transform.position.x > transform.position.x)
-                {
-                transform.position = new Vector3(Mathf.Lerp(transform.position.x, player.transform.position.x, 1 * Time.deltaTime), 1, -10);
-                }
-            }
-        else
-            {
-            if (movingCam)
-                {
-                transform.position = new Vector3(transform.position.x + (camSpeed * Time.deltaTime), 1, -10);
-                }
+            transform.position = Vector3.Lerp(transform.position, currentZone.transform.position, camSpeed * Time.deltaTime);
             }
 	}
 }
