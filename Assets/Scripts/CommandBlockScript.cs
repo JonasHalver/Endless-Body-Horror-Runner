@@ -8,7 +8,7 @@ public class CommandBlockScript : MonoBehaviour {
     //public Vector3 rightPos;
 
     //public float offset;
-    public float moveSpeed = 20f;
+    public float moveSpeed = 80f;
 
     private Vector3 left = new Vector3(-1, 0), right = new Vector3(1, 0), up = new Vector3(0, 1), down = new Vector3(0, -1);
     public enum Directions { Up, Down, Left, Right, Stop };
