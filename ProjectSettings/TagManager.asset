@@ -9,6 +9,7 @@ TagManager:
   - MovingPlatform
   - CamZone
   - Point
+  - Boundary
   layers:
   - Default
   - TransparentFX

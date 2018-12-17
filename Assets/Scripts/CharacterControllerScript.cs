@@ -190,6 +190,10 @@ public class CharacterControllerScript : MonoBehaviour {
                 movementSpeed = msHolder / 2;
                 recentFlip = false;
                 anim.SetTrigger("landedTrigger");
+                if (onMovingPlatform)
+                    {
+                    MicrophoneScript.command = "Stop";
+                    }
                 }
             }
 
@@ -202,6 +206,14 @@ public class CharacterControllerScript : MonoBehaviour {
             movementSpeed = msHolder / 2;
             recentFlip = false;
             anim.SetTrigger("landedTrigger");
+            }
+
+        if (collision.gameObject.tag == "Boundary")
+            {
+            if (onMovingPlatform)
+                {
+                MicrophoneScript.command = "Stop";
+                }
             }
         }
     private void OnCollisionExit2D(Collision2D collision)
