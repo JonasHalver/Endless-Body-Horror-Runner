@@ -52,7 +52,7 @@ public class MicrophoneScript : MonoBehaviour {
         commands.Add(right);
         commands.Add(stop);
 
-        StartCoroutine(VolCheck());
+        //StartCoroutine(VolCheck());
 
         //Create keywords for keyword recognizer
         //keywords.Add("red", () =>
@@ -66,6 +66,14 @@ public class MicrophoneScript : MonoBehaviour {
         keywords.Add("stop", () =>
         {
             command = "Stop";
+        });
+        keywords.Add("return", () =>
+        {
+            command = "Return";
+        });
+        keywords.Add("come back", () =>
+        {
+            command = "Return";
         });
         keywords.Add("go up", () =>
         {

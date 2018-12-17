@@ -15,6 +15,7 @@ public class CommandBlockScript : MonoBehaviour {
     public Directions dir = Directions.Stop;
     private Rigidbody2D rb;
     private string lastDir;
+    private Vector3 startPos;
     //public bool startLeft;
     //public bool startRight;
     //private Vector3 pos;
@@ -35,6 +36,7 @@ public class CommandBlockScript : MonoBehaviour {
         gameObject.tag = "MovingPlatform";
         rb = GetComponent<Rigidbody2D>();
         col = gameObject.GetComponent<Collider2D>();
+        startPos = transform.position;
         //earshotCol = GameObject.Find("Earshot").GetComponent<Collider2D>();
         //pos = transform.position;
         //sRenderer = GetComponent<SpriteRenderer>();
@@ -166,6 +168,11 @@ public class CommandBlockScript : MonoBehaviour {
                 }
             MicrophoneScript.command = "Stop";
             }
+        }
+
+    public void Return()
+        {
+        transform.position = startPos;
         }
     }
     

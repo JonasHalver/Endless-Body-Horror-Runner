@@ -140,8 +140,13 @@ public class SoundReceiver : MonoBehaviour {
                 {
                 cmdScript.dir = CommandBlockScript.Directions.Stop;
                 }
+            if (MicrophoneScript.command == "Return")
+                {
+                cmdScript.SendMessage("Return");
+                cmdScript.dir = CommandBlockScript.Directions.Stop;
+                }
             }
-    }
+        }
 
     IEnumerator OnSpeaking()
         {
