@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 50756354872812140}
   - component: {fileID: 61590191629734798}
   - component: {fileID: 114218204907578764}
-  - component: {fileID: 114079203757941346}
   m_Layer: 0
   m_Name: HideCloud 6
   m_TagString: Ground
@@ -89,19 +88,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.23783386, y: 0.31791854}
   m_EdgeRadius: 0
---- !u!114 &114079203757941346
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1440855344459506}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 712fe3b5a6f227742bfc3cff2b41b9d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 20
-  dir: 4
 --- !u!114 &114218204907578764
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -120,7 +106,7 @@ MonoBehaviour:
   shoutThreshold: 0.75
   speakThreshold: 0.15
   delay: 1
-  targetScale: {x: 0, y: 0, z: 0}
+  targetScale: {x: 0, y: 0}
   changeSpeed: 1
   direction: 1
 --- !u!212 &212635457868814798

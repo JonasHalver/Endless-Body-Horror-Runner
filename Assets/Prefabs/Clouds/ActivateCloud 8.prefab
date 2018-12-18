@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 50190876980639010}
   - component: {fileID: 61995192029311328}
   - component: {fileID: 114661882499126342}
-  - component: {fileID: 114637749473014470}
   m_Layer: 0
   m_Name: ActivateCloud 8
   m_TagString: Ground
@@ -89,19 +88,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.83316356, y: 0.22005582}
   m_EdgeRadius: 0
---- !u!114 &114637749473014470
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1651030835463806}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 712fe3b5a6f227742bfc3cff2b41b9d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 20
-  dir: 4
 --- !u!114 &114661882499126342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -120,7 +106,7 @@ MonoBehaviour:
   shoutThreshold: 0.75
   speakThreshold: 0.15
   delay: 1
-  targetScale: {x: 0, y: 0, z: 0}
+  targetScale: {x: 0, y: 0}
   changeSpeed: 1
   direction: 1
 --- !u!212 &212062055505352846

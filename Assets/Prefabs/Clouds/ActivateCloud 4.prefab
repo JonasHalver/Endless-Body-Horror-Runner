@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 50348811946971356}
   - component: {fileID: 61782119685226648}
   - component: {fileID: 114506171512482174}
-  - component: {fileID: 114857280473037644}
   m_Layer: 0
   m_Name: ActivateCloud 4
   m_TagString: Ground
@@ -107,22 +106,9 @@ MonoBehaviour:
   shoutThreshold: 0.75
   speakThreshold: 0.15
   delay: 1
-  targetScale: {x: 0, y: 0, z: 0}
+  targetScale: {x: 0, y: 0}
   changeSpeed: 1
   direction: 1
---- !u!114 &114857280473037644
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1710701848116824}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 712fe3b5a6f227742bfc3cff2b41b9d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 20
-  dir: 4
 --- !u!212 &212893749919277834
 SpriteRenderer:
   m_ObjectHideFlags: 1
