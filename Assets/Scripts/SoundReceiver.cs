@@ -15,7 +15,7 @@ public class SoundReceiver : MonoBehaviour {
     public float shoutThreshold = 0.75f, speakThreshold = 0.15f, delay = 1f;
     private bool receiveInput = true;
 
-    public Vector3 targetScale;
+    public Vector2 targetScale;
     private Vector2 colSize, spriteSize;
     public float changeSpeed = 1f;
     private Quaternion startRot;
@@ -263,14 +263,14 @@ public class SoundReceiver : MonoBehaviour {
 
     public void Grow()
         {
-        srend.size = new Vector2(Mathf.Lerp(srend.size.x, spriteSize.x + targetScale.x, changeSpeed * Time.deltaTime), srend.size.y);
-        col.size = new Vector2(Mathf.Lerp(col.size.x, (colSize.x + targetScale.x) - 3, changeSpeed * Time.deltaTime), col.size.y);
+        srend.size = new Vector2(Mathf.Lerp(srend.size.x, spriteSize.x + targetScale.x, changeSpeed * Time.deltaTime), Mathf.Lerp(srend.size.y, spriteSize.y + targetScale.y, changeSpeed * Time.deltaTime));
+        col.size = new Vector2(Mathf.Lerp(col.size.x, colSize.x + targetScale.x, changeSpeed * Time.deltaTime), Mathf.Lerp(col.size.y, colSize.y + targetScale.y, changeSpeed * Time.deltaTime));
         }
 
     public void SizeReset()
         {
-        srend.size = new Vector2(Mathf.Lerp(srend.size.x, spriteSize.x, changeSpeed * Time.deltaTime), srend.size.y);
-        col.size = new Vector2(Mathf.Lerp(col.size.x, colSize.x, changeSpeed * Time.deltaTime), col.size.y);
+        srend.size = new Vector2(Mathf.Lerp(srend.size.x, spriteSize.x, changeSpeed * Time.deltaTime), Mathf.Lerp(srend.size.y, spriteSize.y, changeSpeed * Time.deltaTime));
+        col.size = new Vector2(Mathf.Lerp(col.size.x, colSize.x, changeSpeed * Time.deltaTime), Mathf.Lerp(col.size.y, colSize.y, changeSpeed * Time.deltaTime));
         }
 
     public void Rotate()
