@@ -1,0 +1,1108 @@
+fileFormatVersion: 2
+guid: 0e3904d74e47142448c5867ce950cff6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: clouddaddy_idel1
+    21300002: clouddaddy_idel2
+    21300004: clouddaddy_blink1
+    21300006: clouddaddy_blink2
+    21300008: clouddaddy_comming4
+    21300010: yellinggame_clouddaddy_5
+    21300012: clouddaddy_comming2
+    21300014: clouddaddy_comming3
+    21300016: yellinggame_clouddaddy_8
+    21300018: clouddaddy_comming5
+    21300020: yellinggame_clouddaddy_10
+    21300022: clouddaddy_comming1
+    21300024: yellinggame_clouddaddy_12
+    21300026: yellinggame_clouddaddy_13
+    21300028: yellinggame_clouddaddy_14
+    21300030: yellinggame_clouddaddy_15
+    21300032: yellinggame_clouddaddy_16
+    21300034: yellinggame_clouddaddy_17
+    21300036: clouddaddy_going2
+    21300038: clouddaddy_going3
+    21300040: yellinggame_clouddaddy_20
+    21300042: clouddaddy_going1
+    21300044: clouddaddy_going4
+    21300046: clouddaddy_going5
+    21300048: yellinggame_clouddaddy_24
+    21300050: yellinggame_clouddaddy_25
+    21300052: yellinggame_clouddaddy_26
+    21300054: yellinggame_clouddaddy_27
+    21300056: yellinggame_clouddaddy_28
+    21300058: yellinggame_clouddaddy_29
+    21300060: cloudface_yellow_sleep
+    21300062: cloudface_yellow_surprise
+    21300064: cloudface_yellow_awake
+    21300066: clouddaddy_speachbubble
+    21300068: cloudface_blue_sleep
+    21300070: cloudface_blue_surprise
+    21300072: cloudface_blue_awake
+    21300074: cloudface_green_sleep
+    21300076: cloudface_green_surprise
+    21300078: cloudface_green_awake
+    21300080: cloudface_red_sleep
+    21300082: cloudface_red_surprise
+    21300084: cloudface_red_awake
+    21300086: goal_cloud
+    21300088: goal_doorframe
+    21300090: goal_door
+    21300092: yellinggame_clouddaddy_46
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clouddaddy_idel1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 5788
+        width: 571
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ea434df0cafc843bf51ea47ac41779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_idel2
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 5788
+        width: 571
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd11e38cc86606544a3dcc10df4b823c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_blink1
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 5788
+        width: 566
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbc618dffb9e0c4b86d8dee7d880bf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_blink2
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 5788
+        width: 573
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddc408e39046bb4ab1ca020a3926b2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_comming4
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 4944
+        width: 668
+        height: 626
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45867783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e9dc1e73d937148ab5e55e59d78e61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_5
+      rect:
+        serializedVersion: 2
+        x: 3375
+        y: 5537
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe56908853bb374468f2900a65ee4269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_comming2
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 5039
+        width: 438
+        height: 433
+      alignment: 9
+      pivot: {x: 0.49261782, y: 0.45519426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af22ccf2fb77b1489f120fdb9f99f11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_comming3
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 5030
+        width: 518
+        height: 475
+      alignment: 9
+      pivot: {x: 0.5124835, y: 0.4115039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81217f219720d2848ab1935a8a89782b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_8
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 5447
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd43b1bac17ce545a8f3c083d149dec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_comming5
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 4969
+        width: 661
+        height: 613
+      alignment: 9
+      pivot: {x: 0.50978297, y: 0.46835092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53293042da0660b4db7620c17d144aa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_10
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 5257
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a615dccc6d6ed34383dca35bb09e9aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_comming1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 5049
+        width: 321
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e276aebe9a4b7c941abff249fee719f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_12
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 5058
+        width: 167
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1100a92b1fb571f4f884932680d57140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_13
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 5061
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835d68d7dd8d50c4da27a951584a12dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_14
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 4979
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6da637484d0064c9f719a4a9da719b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_15
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 4988
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfd8def9b547bc4a92c94033bdb0e4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_16
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4578
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98887734ec3aa9e4bb3d148ef2932948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_17
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 4625
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025c1caaca09b284abcbc363053ac4cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_going2
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 3982
+        width: 368
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20742471c43e87b42b7bbee3aa4d88d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_going3
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 3931
+        width: 244
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 5, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2146375484137a42a188375b2b1c458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_20
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 4549
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc2fbb4b2ef0ac49b0cfdeec0c2b65c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_going1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 4031
+        width: 472
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb56f057ebb0d1458ed55c86a7a2f9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_going4
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 4022
+        width: 210
+        height: 650
+      alignment: 9
+      pivot: {x: 0.52464306, y: 0.41242412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8984c7859de2c224a8bc4e0439fe7f35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_going5
+      rect:
+        serializedVersion: 2
+        x: 2463
+        y: 4157
+        width: 204
+        height: 318
+      alignment: 9
+      pivot: {x: 0.5253679, y: 0.4267701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dea8e7d544ff14593996c307b77275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_24
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 4234
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329a3ed734e907044a6ea259b77b552b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_25
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 4154
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ed4cfc3c1ec634d8697132aedee5b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_26
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 4247
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c52ff396166e2419d6443b47962a6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_27
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 4179
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1326073ca1369749ac4837dfcddc7d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_28
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 4037
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0627d132816cdf140807f5cdce23c143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_29
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 3943
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce5849b8cd1c4041bacc5dd16782def
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_yellow_sleep
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 3345
+        width: 570
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf591ea3775e2640b5f7704261e10ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_yellow_surprise
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 3345
+        width: 568
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483ac0b62cf9b2f46a9e954d35e05c54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_yellow_awake
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 3345
+        width: 569
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1083609eda1271646aadbbc9e758e6ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clouddaddy_speachbubble
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 2517
+        width: 1380
+        height: 1149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c54c8a5c0d0e6469c6299c660ec97f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_blue_sleep
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2915
+        width: 571
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef18a4192850a843aa58491a4083f61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_blue_surprise
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2915
+        width: 568
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4597a40070a16f48aad584266312a4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_blue_awake
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 2915
+        width: 573
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bb1ee99c7fc4a4ebebc963904e9d50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_green_sleep
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2489
+        width: 571
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15493dd6c0c077f41885357dd91d9384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_green_surprise
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2489
+        width: 573
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623bf5e8ea15b82498d1d44ceccbf161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_green_awake
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 2489
+        width: 573
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e0cd624e6da2245b6fd3bd5c5ffbb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_red_sleep
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2059
+        width: 571
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8110f599baa484f81134af9828853e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_red_surprise
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 2059
+        width: 574
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ef90c56d4dae7489fa224595961d6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloudface_red_awake
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 2059
+        width: 573
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a046a5902783ac4992c4b4ce2dbf9bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goal_cloud
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 703
+        width: 1580
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604eb3620ad31f64492b95ab3d0a2006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goal_doorframe
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 179
+        width: 1064
+        height: 1666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5437ce26ddd66974c84d957223abcc0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goal_door
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 112
+        width: 816
+        height: 1694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec71987dd8b0e9c4fa2ac32343c32ea6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellinggame_clouddaddy_46
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 191
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4158a050d2ff4684a96b26925b754ad7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2add5ab9a37976b478e9167ea9de2e55
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
