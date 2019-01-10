@@ -48,7 +48,32 @@ public class ShoutingButtonScript : MonoBehaviour {
                     break;
                 }
             }
-	}
+
+        if (MicrophoneScript.command == "Exit")
+            {
+            switch (bType)
+                {
+                case ButtonType.Play:
+                    //Play();
+                    break;
+                case ButtonType.Exit:
+                    Exit();
+                    break;
+                }
+            }
+        if (MicrophoneScript.command == "Play")
+            {
+            switch (bType)
+                {
+                case ButtonType.Play:
+                    Play();
+                    break;
+                case ButtonType.Exit:
+                    //Exit();
+                    break;
+                }
+            }
+        }
 
     public void Play()
         {

@@ -91,6 +91,14 @@ public class MicrophoneScript : MonoBehaviour {
         {
             command = "Down";
         });
+        keywords.Add("play", () =>
+        {
+            command = "Play";
+        });
+        keywords.Add("exit", () =>
+        {
+            command = "Exit";
+        });
         keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
 
