@@ -56,7 +56,7 @@ public class SoundReceiver : MonoBehaviour {
 	void Update () {
 		if (receiveInput)
             {
-            if (MicrophoneScript.volume > shoutThreshold)
+            if (MicrophoneScript.volume >= shoutThreshold)
                 {
                 StartCoroutine(OnShouting());
                 }
@@ -150,7 +150,7 @@ public class SoundReceiver : MonoBehaviour {
 
     IEnumerator OnSpeaking()
         {
-        receiveInput = false;
+        //receiveInput = false;
         while (true)
             {
             if (triggerOnSpeaking)

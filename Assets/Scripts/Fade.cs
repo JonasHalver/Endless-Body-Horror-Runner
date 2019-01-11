@@ -9,6 +9,7 @@ public class Fade : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         img = GetComponent<UnityEngine.UI.Image>();
+        img.color = new Color(0, 0, 0, 1);
         StartCoroutine(FadeIn());
 	}
 	
