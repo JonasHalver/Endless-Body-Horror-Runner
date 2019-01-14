@@ -43,6 +43,7 @@ public class CharacterControllerScript : MonoBehaviour {
         anim = GetComponent<Animator>();
         sRenderer = GetComponent<SpriteRenderer>();
         //respawn = GameObject.FindGameObjectWithTag("Respawn");
+        GameManager.player = gameObject;
 	}
 
     private void Update()

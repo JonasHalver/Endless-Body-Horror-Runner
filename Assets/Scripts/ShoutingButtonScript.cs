@@ -23,8 +23,10 @@ public class ShoutingButtonScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        distance = Vector3.Distance(transform.position, player.transform.position);
-
+        if (GameManager.player != null)
+            {
+            distance = Vector3.Distance(transform.position, GameManager.player.transform.position);
+            }
         if (distance > 4.5f)
             {
             sRendererBG.color = new Color(1, 1, 1, 0);

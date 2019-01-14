@@ -11,7 +11,7 @@ public class CamZoneScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        player = GameObject.FindGameObjectWithTag("Player");
+        //player = GameObject.FindGameObjectWithTag("Player");
         col = GetComponent<Collider2D>();
         b1 = transform.GetChild(0).gameObject;
         b2 = transform.GetChild(1).gameObject;
@@ -21,32 +21,36 @@ public class CamZoneScript : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-		if (col.IsTouching(player.GetComponent<Collider2D>()))
+        if (GameManager.player != null)
             {
-            CameraController.currentZone = gameObject;
-            if (closeTop)
+            if (col.IsTouching(GameManager.player.GetComponent<Collider2D>()))
                 {
-                b1.SetActive(true);
+                CameraController.currentZone = gameObject;
+                if (closeTop)
+                    {
+                    b1.SetActive(true);
+                    }
+                if (closeBottom)
+                    {
+                    b2.SetActive(true);
+                    }
+                if (closeLeft)
+                    {
+                    b3.SetActive(true);
+                    }
+                if (closeRight)
+                    {
+                    b4.SetActive(true);
+                    }
+                GameManager.checkpointIndex = transform.Find("Checkpoint").GetComponent<Checkpoint>().checkpointIndex;
                 }
-            if (closeBottom)
+            else
                 {
-                b2.SetActive(true);
+                b1.SetActive(false);
+                b2.SetActive(false);
+                b3.SetActive(false);
+                b4.SetActive(false);
                 }
-            if (closeLeft)
-                {
-                b3.SetActive(true);
-                }
-            if (closeRight)
-                {
-                b4.SetActive(true);
-                }
-            }
-        else
-            {
-            b1.SetActive(false);
-            b2.SetActive(false);
-            b3.SetActive(false);
-            b4.SetActive(false);
             }
 	}
 }

@@ -53,45 +53,48 @@ public class CommandBlockScript : MonoBehaviour {
     // Update is called once per frame
     void Update()
         {
-        if (col.IsTouching(CameraController.currentZone.GetComponent<Collider2D>()))
+        if (CameraController.currentZone != null)
             {
-            switch (dir)
+            if (col.IsTouching(CameraController.currentZone.GetComponent<Collider2D>()))
                 {
-                case Directions.Up:
-                    //transform.position = transform.position + (up * moveSpeed * Time.deltaTime);
-                    if (lastDir != "Up")
-                        {
-                        lastDir = null;
-                        rb.velocity = up * moveSpeed * Time.deltaTime;
-                        }
-                    break;
-                case Directions.Down:
-                    //transform.position = transform.position + (down * moveSpeed * Time.deltaTime);
-                    if (lastDir != "Down")
-                        {
-                        lastDir = null;
-                        rb.velocity = down * moveSpeed * Time.deltaTime;
-                        }
-                    break;
-                case Directions.Left:
-                    //transform.position = transform.position + (left * moveSpeed * Time.deltaTime);
-                    if (lastDir != "Left")
-                        {
-                        lastDir = null;
-                        rb.velocity = left * moveSpeed * Time.deltaTime;
-                        }
-                    break;
-                case Directions.Right:
-                    //transform.position = transform.position + (right * moveSpeed * Time.deltaTime);
-                    if (lastDir != "Right")
-                        {
-                        lastDir = null;
-                        rb.velocity = right * moveSpeed * Time.deltaTime;
-                        }
-                    break;
-                case Directions.Stop:
-                    rb.velocity = new Vector2(0, 0);
-                    break;
+                switch (dir)
+                    {
+                    case Directions.Up:
+                        //transform.position = transform.position + (up * moveSpeed * Time.deltaTime);
+                        if (lastDir != "Up")
+                            {
+                            lastDir = null;
+                            rb.velocity = up * moveSpeed * Time.deltaTime;
+                            }
+                        break;
+                    case Directions.Down:
+                        //transform.position = transform.position + (down * moveSpeed * Time.deltaTime);
+                        if (lastDir != "Down")
+                            {
+                            lastDir = null;
+                            rb.velocity = down * moveSpeed * Time.deltaTime;
+                            }
+                        break;
+                    case Directions.Left:
+                        //transform.position = transform.position + (left * moveSpeed * Time.deltaTime);
+                        if (lastDir != "Left")
+                            {
+                            lastDir = null;
+                            rb.velocity = left * moveSpeed * Time.deltaTime;
+                            }
+                        break;
+                    case Directions.Right:
+                        //transform.position = transform.position + (right * moveSpeed * Time.deltaTime);
+                        if (lastDir != "Right")
+                            {
+                            lastDir = null;
+                            rb.velocity = right * moveSpeed * Time.deltaTime;
+                            }
+                        break;
+                    case Directions.Stop:
+                        rb.velocity = new Vector2(0, 0);
+                        break;
+                    }
                 }
             }
         //if (MicrophoneScript.command == "Left")
