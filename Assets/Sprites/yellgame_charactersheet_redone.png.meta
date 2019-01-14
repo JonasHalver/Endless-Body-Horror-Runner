@@ -1,0 +1,1255 @@
+fileFormatVersion: 2
+guid: 71c76e7378e367f4ea6e4ff0873bd728
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 2hank_yell_walk1
+    21300002: 2hank_yell_walk2
+    21300004: 2hank_yell_walk3
+    21300006: 2hank_yell_walk4
+    21300008: 2hank_idle1
+    21300010: 2hank_idle2
+    21300012: 2hank_silent_jump1
+    21300014: 2hank_silent_jump2
+    21300016: 2hank_silent_jump3
+    21300018: 2hank_silent_jump4
+    21300020: 2hank_silent_walk1
+    21300022: 2hank_silent_walk2
+    21300024: 2hank_silent_walk3
+    21300026: 2hank_silent_walk4
+    21300028: 2hank_silent_run1
+    21300030: 2hank_silent_run2
+    21300032: 2hank_silent_run3
+    21300034: 2hank_silent_run4
+    21300036: 2hank_talk_jump1
+    21300038: 2hank_talk_jump2
+    21300040: 2hank_talk_jump3
+    21300042: 2hank_talk_jump4
+    21300044: 2hank_talk_run1
+    21300046: 2hank_talk_walk2
+    21300048: 2hank_talk_walk3
+    21300050: 2hank_talk_walk4
+    21300052: 2hank_talk_walk1
+    21300054: 2hank_talk_run2
+    21300056: 2hank_talk_run3
+    21300058: 2hank_talk_run4
+    21300060: yellgame_charactersheet_redone_30
+    21300062: yellgame_charactersheet_redone_31
+    21300064: yellgame_charactersheet_redone_32
+    21300066: yellgame_charactersheet_redone_33
+    21300068: 2hank_talk_idle1
+    21300070: 2hank_talk_idle2
+    21300072: 2hank_talk_idle3
+    21300074: 2hank_talk_idle4
+    21300076: 2hank_yell_jump1
+    21300078: 2hank_yell_jump2
+    21300080: 2hank_yell_jump3
+    21300082: 2hank_yell_jump4
+    21300084: 2hank_yell_run1
+    21300086: 2hank_yell_run2
+    21300088: 2hank_yell_run3
+    21300090: 2hank_yell_run4
+    21300092: 2hank_yell_idle1
+    21300094: 2hank_yell_idle2
+    21300096: 2hank_yell_idle3
+    21300098: 2hank_yell_idle4
+    21300100: 2hank_die
+    21300102: 2hank_dead1
+    21300104: 2hank_dead2
+    21300106: yellgame_charactersheet_redone_53
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2hank_yell_walk1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4005
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a904f66ecc5d74e8776d2f2f8efa03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_walk2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 4005
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98678d3329415941b23bedff127be18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_walk3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 4005
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32e7e4d8e137784cbb62fcca9b2256a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_walk4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 4005
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c7d27751f5a694abf90c8d25ad68df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_idle1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17355
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8b107beae6f10428aa7856f938bdd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_idle2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 17355
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09085157de5ca2a4eaf2484dc49150ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_jump1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16020
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5b638e355abcd4b9522e6cd8e462fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_jump2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 16020
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc877218058e5734e99e99732a243c85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_jump3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 16020
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccbd6ae8d8ab7f4ea8eb15bfe983f3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_jump4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 16020
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790f5ecf72315ae49952ab5b526e5767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_walk1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14674
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8857d5d08fc6814408bb5a9c15da0d52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_walk2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 14685
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b75df786d4f94844a1c8dc49590d9d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_walk3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 14685
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23868d27eaef3a46a8d077bdcd22993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_walk4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 14685
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c2d9abb5c7e334bb7e3f409d63a603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_run1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13350
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5b081aa15d82544a804216ed2deb2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_run2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 13350
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f690cec132b19c04290fb0504a0a1f5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_run3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 13350
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8708098d8356a847a3c3569616c33d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_silent_run4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 13372
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013106d8e118ae44e98eff56b1f09141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_jump1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12015
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bdaf8d7af27db4c87980ef5e76bbb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_jump2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 12015
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e1bc13801b2b94ab921f4cc4a02272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_jump3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 12015
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a755e354eb5de4aaab7113498cbf41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_jump4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 12015
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afcfa4c963d45a4288ddff379548a1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_run1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9345
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325d4f639270da548a649e2780f5ae32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_walk2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 10680
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8b2dfe2648b2641917bdd04f901fbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_walk3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 10680
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96040b39ad0b744438e8d18d9741ef1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_walk4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 10680
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ac7506eb384c047b538161097885b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_walk1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10680
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3943b168220ef489e25be31961b538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_run2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 9345
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6910f01585f07449b9edf7e5b4540a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_run3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 9345
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70be1d86536fbb40b94b088c0927876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_run4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 9345
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2084fbcfa46ee84a919b7df87181bca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_charactersheet_redone_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8010
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb31747075c255547b57cfa1d5e1cb6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_charactersheet_redone_31
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 8010
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc82866950d117841a1502617a05b165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_charactersheet_redone_32
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 8010
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e8e02b1e6ecee49a11be9f98347aca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_charactersheet_redone_33
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 8010
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263ae235c875b174fa77e370974731f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_idle1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6675
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39ee7b32083e1449bf3cbc6291867ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_idle2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 6675
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f436dd33b9758e4a8d12d76a6795b88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_idle3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 6675
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624b0a9ac9a20314192f6230274e30d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_talk_idle4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 6675
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7f22d9d3529934ea0650000cd9dbf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_jump1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5340
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bab23374800d7f488acc6acbfc4ea30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_jump2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 5351
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc08a008ff60074cbe0d9456981217e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_jump3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 5340
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdef0b6615c4b04baeba9462b77e8a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_jump4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 5340
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ca8e40a1a90f4479d5c08414122a7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_run1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2670
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2646ca98b7887004bb043cd8ac14fa8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_run2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 2670
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ad850536fcad04d9cfa1292a4a180b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_run3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 2670
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21afbfb7121ef045b73c281c5e99825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_run4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 2670
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d2410551c6e6e4b8141e63adf7b6d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_idle1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1335
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd950067eae671e49854e72ad7703094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_idle2
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1335
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f676938835c504a459939fecee2a33bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_idle3
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 1335
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e888dfa4e6c985245af1c79b0a7d0eb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_yell_idle4
+      rect:
+        serializedVersion: 2
+        x: 4005
+        y: 1335
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8746e8d0d37ad2240bbf6f14ec8afc9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_die
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1fe58ba6a02bc469e07b0837287723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_dead1
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 0
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e19a6ea6067f044fa1850885bca0767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hank_dead2
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 0
+        width: 1335
+        height: 1335
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8152660cca556d24ea6588e0be30c33e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yellgame_charactersheet_redone_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 788
+        width: 1
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb7858a473c4de4dab4bebec44f05b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9b27198d5c91dfa44b97d22092ebbae2
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
