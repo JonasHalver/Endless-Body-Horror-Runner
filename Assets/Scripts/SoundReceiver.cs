@@ -56,11 +56,11 @@ public class SoundReceiver : MonoBehaviour {
 	void Update () {
 		if (receiveInput)
             {
-            if (MicrophoneScript.volume >= shoutThreshold)
+            if (MicrophoneScript.volume >= GameManager.shoutThreshold)
                 {
                 StartCoroutine(OnShouting());
                 }
-            if (MicrophoneScript.volume > speakThreshold && MicrophoneScript.volume < shoutThreshold)
+            if (MicrophoneScript.volume > GameManager.speakThreshold && MicrophoneScript.volume < GameManager.shoutThreshold)
                 {
                 StartCoroutine(OnSpeaking());
                 }
@@ -68,7 +68,7 @@ public class SoundReceiver : MonoBehaviour {
 
         if (type == BlockType.Grow || type == BlockType.Rotate)
             {
-            if (MicrophoneScript.volume >= shoutThreshold)
+            if (MicrophoneScript.volume >= GameManager.shoutThreshold)
                 {
                 if (type == BlockType.Grow)
                     {
@@ -93,7 +93,7 @@ public class SoundReceiver : MonoBehaviour {
 
             if (triggerOnSpeaking)
                 {
-                if (MicrophoneScript.volume >= speakThreshold)
+                if (MicrophoneScript.volume >= GameManager.speakThreshold)
                     {
                     if (type == BlockType.Grow)
                         {
@@ -150,7 +150,7 @@ public class SoundReceiver : MonoBehaviour {
 
     IEnumerator OnSpeaking()
         {
-        //receiveInput = false;
+        receiveInput = false;
         while (true)
             {
             if (triggerOnSpeaking)
@@ -175,11 +175,25 @@ public class SoundReceiver : MonoBehaviour {
                         break;
                     }
                 }
-            yield return new WaitForSeconds(delay);
-            if (MicrophoneScript.volume < speakThreshold)
+            yield return null;
+            if (MicrophoneScript.volume < GameManager.speakThreshold)
+                {
+                yield return new WaitForSeconds(delay);
+                if (MicrophoneScript.volume < GameManager.speakThreshold)
+                    {
+                    break;
+                    }
+                }
+            else if (MicrophoneScript.volume >= GameManager.shoutThreshold)
                 {
                 break;
                 }
+
+            //yield return new WaitForSeconds(delay);
+            //if (MicrophoneScript.volume < GameManager.speakThreshold)
+            //    {
+            //    break;
+            //    }
             }
         switch (type)
             {
@@ -233,12 +247,22 @@ public class SoundReceiver : MonoBehaviour {
                 case BlockType.Command:
                     break;
                 }
-            yield return new WaitForSeconds(delay);
-            if (MicrophoneScript.volume < speakThreshold)
+            yield return null;
+            if (MicrophoneScript.volume < GameManager.shoutThreshold)
                 {
-                break;
+                yield return new WaitForSeconds(delay);
+                if (MicrophoneScript.volume < GameManager.shoutThreshold)
+                    {
+                    break;
+                    }
                 }
             }
+        //yield return new WaitForSeconds(delay);
+        //if (MicrophoneScript.volume < GameManager.speakThreshold)
+        //    {
+        //    break;
+        //    }
+
         switch (type)
             {
             case BlockType.Activate:
@@ -258,8 +282,9 @@ public class SoundReceiver : MonoBehaviour {
             case BlockType.Command:
                 break;
             }
-                receiveInput = true;
+        receiveInput = true;
         }
+        
 
     public void Grow()
         {

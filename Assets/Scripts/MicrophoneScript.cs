@@ -103,11 +103,12 @@ public class MicrophoneScript : MonoBehaviour {
         keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
 
         keywordRecognizer.Start();
+        StartCoroutine(Volume());
         }
 	
 	// Update is called once per frame
 	void Update () {
-        volume = Mathf.Clamp(Loudness() * sensitivity, 0, 1);
+        //volume = Mathf.Clamp(Loudness() * sensitivity, 0, 1);
 
         }
 
@@ -131,6 +132,15 @@ public class MicrophoneScript : MonoBehaviour {
         if (keywords.TryGetValue(args.text, out keywordAction))
             {
             keywordAction.Invoke();
+            }
+        }
+
+    IEnumerator Volume()
+        {
+        while (true)
+            {
+            volume = Mathf.Clamp(Loudness() * sensitivity, 0, 1);
+            yield return new WaitForSeconds(0.1f);
             }
         }
 

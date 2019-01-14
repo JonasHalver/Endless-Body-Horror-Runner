@@ -50,7 +50,7 @@ public class CharacterControllerScript : MonoBehaviour {
         {
         if (checkVolume)
             {
-            if (MicrophoneScript.volume >= shoutThreshold)
+            if (MicrophoneScript.volume >= GameManager.shoutThreshold)
                 {
                 StartCoroutine(Shout());
                 }
@@ -244,7 +244,19 @@ public class CharacterControllerScript : MonoBehaviour {
         {
         anim.SetBool("isShouting", true);
         checkVolume = false;
-        yield return new WaitForSeconds(1f);
+        while (true)
+            {
+            yield return null;
+            if (MicrophoneScript.volume < GameManager.shoutThreshold)
+                {
+                yield return new WaitForSeconds(1f);
+                if (MicrophoneScript.volume < GameManager.shoutThreshold)
+                    {
+                    break;
+                    }
+                }
+            }
+        anim.SetBool("isShouting", false);
         checkVolume = true;
         }
 

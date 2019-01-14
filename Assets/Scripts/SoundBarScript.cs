@@ -1,16 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SoundBarScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        StartCoroutine(Volume());
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        transform.localScale = new Vector3(MicrophoneScript.volume, 1, 1);
+        //transform.localScale = new Vector3(MicrophoneScript.volume, 1, 1);
+        //GetComponent<Slider>().value = MicrophoneScript.volume;
 	}
+
+    IEnumerator Volume()
+        {
+        float vol1, vol2;
+        while (true)
+            {
+            vol1 = MicrophoneScript.volume;
+            yield return new WaitForSeconds(0.1f);
+            vol2 = MicrophoneScript.volume;
+            GetComponent<Slider>().value = Mathf.Clamp((vol1+vol2)/2, GetComponent<Slider>().value - 0.2f, GetComponent<Slider>().value + 0.2f);
+            }
+        }
 }
