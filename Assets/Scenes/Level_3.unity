@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3340,30 +3340,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4760989699672764, guid: c50bd1684eb135648a439d683b0f9990, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4760989699672764, guid: c50bd1684eb135648a439d683b0f9990, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4760989699672764, guid: c50bd1684eb135648a439d683b0f9990, type: 2}
       propertyPath: m_RootOrder
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 50810860918628834, guid: c50bd1684eb135648a439d683b0f9990,
-        type: 2}
-      propertyPath: m_UseAutoMass
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 50810860918628834, guid: c50bd1684eb135648a439d683b0f9990,
-        type: 2}
-      propertyPath: m_Mass
-      value: 4.1845503
-      objectReference: {fileID: 0}
-    - target: {fileID: 114141543095117168, guid: c50bd1684eb135648a439d683b0f9990,
-        type: 2}
-      propertyPath: triggerOnSpeaking
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c50bd1684eb135648a439d683b0f9990, type: 2}
