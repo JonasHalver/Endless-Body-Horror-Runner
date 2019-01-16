@@ -2766,11 +2766,22 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4964454211773438, guid: c87320367e6f19b47aec825877026a34, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -14.5
+      value: -13.3
       objectReference: {fileID: 0}
     - target: {fileID: 4964454211773438, guid: c87320367e6f19b47aec825877026a34, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 15
+      value: 11.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 212952838040352710, guid: c87320367e6f19b47aec825877026a34,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300010, guid: a105ca8fa2fba8f4f82d65abf8f555ed,
+        type: 3}
+    - target: {fileID: 212952838040352710, guid: c87320367e6f19b47aec825877026a34,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 8.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87320367e6f19b47aec825877026a34, type: 2}

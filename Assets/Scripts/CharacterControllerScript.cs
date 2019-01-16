@@ -34,8 +34,11 @@ public class CharacterControllerScript : MonoBehaviour {
     private GameObject respawn;
     private bool isDead;
 
+    private AudioSource aSource;
+
 
     void Start () {
+        aSource = GetComponent<AudioSource>();
         rb = gameObject.GetComponent<Rigidbody2D>();
         negativeJump = jumpForce * -1;
         col = gameObject.GetComponent<Collider2D>();
@@ -278,6 +281,7 @@ public class CharacterControllerScript : MonoBehaviour {
         if (other.tag == "Point")
             {
             Destroy(other.gameObject);
+            aSource.Play();
             GameManager.score++;
             }
         }
