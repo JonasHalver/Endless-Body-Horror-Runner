@@ -19,7 +19,7 @@ public class TutorialScript : MonoBehaviour {
         sRendererBubble = bubble.GetComponent<SpriteRenderer>();
         txt = bubble.transform.Find("Text").GetComponent<TextMesh>();
 
-        sRendererBubble.sprite = bubbleSprite;
+        //sRendererBubble.sprite = bubbleSprite;
 
         //name = transform.name;
         //
