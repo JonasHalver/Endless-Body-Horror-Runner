@@ -5,8 +5,14 @@ using UnityEngine.UI;
 
 public class SoundBarScript : MonoBehaviour {
 
+    public Color quiet, speak, shout;
+    private GameObject fill;
+    private Image fillImage;
+
 	// Use this for initialization
 	void Start () {
+        fill = transform.Find("Fill Area").transform.Find("Fill").gameObject;
+        fillImage = fill.GetComponent<Image>();
         StartCoroutine(Volume());
 	}
 	
@@ -14,6 +20,19 @@ public class SoundBarScript : MonoBehaviour {
 	void Update () {
         //transform.localScale = new Vector3(MicrophoneScript.volume, 1, 1);
         //GetComponent<Slider>().value = MicrophoneScript.volume;
+
+        if (GetComponent<Slider>().value >= GameManager.shoutThreshold)
+            {
+            fillImage.color = shout;
+            }
+        else if (GetComponent<Slider>().value > GameManager.speakThreshold && GetComponent<Slider>().value < GameManager.shoutThreshold)
+            {
+            fillImage.color = speak;
+            }
+        else
+            {
+            fillImage.color = quiet;
+            }
 	}
 
     IEnumerator Volume()

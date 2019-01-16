@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 
     public static GameObject currentCheckpoint;
     public static List<GameObject> checkpoints = new List<GameObject>();
-    public static int checkpointIndex = 1;
+    public static int checkpointIndex = 1, score = 0;
 
     public static float shoutThreshold = 0.75f, speakThreshold = 0.1f;
     public static bool isShouting, isSpeaking;
