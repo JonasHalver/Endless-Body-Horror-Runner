@@ -16,6 +16,8 @@ public class CommandBlockScript : MonoBehaviour {
     private Rigidbody2D rb;
     private string lastDir;
     private Vector3 startPos;
+
+    public GameObject[] clouds;
     //public bool startLeft;
     //public bool startRight;
     //private Vector3 pos;
@@ -37,6 +39,9 @@ public class CommandBlockScript : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         col = gameObject.GetComponent<Collider2D>();
         startPos = transform.position;
+
+        StartCoroutine(IgnoreClouds());
+
         //earshotCol = GameObject.Find("Earshot").GetComponent<Collider2D>();
         //pos = transform.position;
         //sRenderer = GetComponent<SpriteRenderer>();
@@ -176,6 +181,18 @@ public class CommandBlockScript : MonoBehaviour {
     public void Return()
         {
         transform.position = startPos;
+        }
+
+    IEnumerator IgnoreClouds()
+        {
+        yield return new WaitForSeconds(1f);
+
+        clouds = GameObject.FindGameObjectsWithTag("Cloud");
+
+        foreach (GameObject cloud in clouds)
+            {
+            Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), cloud.GetComponent<Collider2D>());
+            }
         }
     }
     

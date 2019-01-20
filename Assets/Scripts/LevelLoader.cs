@@ -20,17 +20,15 @@ public class LevelLoader : MonoBehaviour {
             {
             if (col.IsTouching(GameManager.player.GetComponent<Collider2D>()))
                 {
-                GameManager.checkpointIndex = 1;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                StartCoroutine(NextLevel());
                 }
             }
         }
 
-    //private void OnTriggerEnter2D(Collider2D collision)
-    //    {
-    //    if (collision == player)
-    //        {
-    //        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    //        }
-    //    }
+    IEnumerator NextLevel()
+        {
+        GameManager.checkpointIndex = 1;
+        yield return null;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }

@@ -5,11 +5,13 @@ using UnityEngine;
 public class DelayScript : MonoBehaviour {
 
     private UnityEngine.UI.Text txt;
+    private SpriteRenderer sRenderer;
     public float time = 20f;
 
 	// Use this for initialization
 	void Start () {
         txt = GetComponent<UnityEngine.UI.Text>();
+        sRenderer = GetComponent<SpriteRenderer>();
         StartCoroutine(Delay());
 	}
 	
@@ -21,6 +23,15 @@ public class DelayScript : MonoBehaviour {
     IEnumerator Delay()
         {
         yield return new WaitForSeconds(time);
-        txt.enabled = true;
+
+        if (txt != null)
+            {
+            txt.enabled = true;
+            }
+
+        if (sRenderer != null)
+            {
+            sRenderer.enabled = true;
+            }
         }
 }

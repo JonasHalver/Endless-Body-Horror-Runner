@@ -11,6 +11,7 @@ TagManager:
   - Point
   - Boundary
   - Checkpoint
+  - Cloud
   layers:
   - Default
   - TransparentFX

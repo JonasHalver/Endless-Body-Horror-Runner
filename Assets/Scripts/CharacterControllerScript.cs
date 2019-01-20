@@ -188,16 +188,20 @@ public class CharacterControllerScript : MonoBehaviour {
         {
         if (isAirborne)
             {
-            if (collision.gameObject.tag == "Ground")
+            if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Cloud")
                 {
                 //isAirborne = false;
                 movementSpeed = msHolder / 2;
                 recentFlip = false;
                 anim.SetTrigger("landedTrigger");
-                if (onMovingPlatform)
+                if (collision.gameObject.tag == "Ground")
                     {
-                    MicrophoneScript.command = "Stop";
+                    if (onMovingPlatform)
+                        {
+                        MicrophoneScript.command = "Stop";
+                        }
                     }
+                
                 }
             }
 
