@@ -284,10 +284,18 @@ public class CharacterControllerScript : MonoBehaviour {
             }
         if (other.tag == "Point")
             {
-            Destroy(other.gameObject);
-            aSource.Play();
-            GameManager.score++;
+            StartCoroutine(Point(other.gameObject));
             }
+        }
+
+    IEnumerator Point(GameObject point)
+        {
+        point.GetComponent<Animator>().SetTrigger("Collected");
+        point.GetComponent<Collider2D>().enabled = false;
+        aSource.Play();
+        yield return new WaitForSeconds(1f);
+        Destroy(point.gameObject);
+        GameManager.score++;
         }
 
     void NewZone()
