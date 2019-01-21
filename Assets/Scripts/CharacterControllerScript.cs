@@ -32,7 +32,7 @@ public class CharacterControllerScript : MonoBehaviour {
     private bool checkVolume = true;
 
     private GameObject respawn;
-    private bool isDead;
+    public bool isDead;
 
     private AudioSource aSource;
     public AudioClip coin, walk, jumpSound;
