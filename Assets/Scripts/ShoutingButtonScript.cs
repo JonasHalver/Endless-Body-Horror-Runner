@@ -38,6 +38,11 @@ public class ShoutingButtonScript : MonoBehaviour {
             sr.enabled = true;
             }
 
+        if (Input.GetKeyDown("page up"))
+            {
+            Play();
+            }
+
         if (sRenderer.size.x > sRendererBG.size.x)
             {
             switch (bType)

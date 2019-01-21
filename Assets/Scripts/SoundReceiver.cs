@@ -32,20 +32,27 @@ public class SoundReceiver : MonoBehaviour {
         colSize = col.size;
         spriteSize = srend.size;
 
+        
+
 		switch (type)
             {
             case BlockType.Activate:
                 srend.sprite = offSprite;
                 col.enabled = false;
+                gameObject.tag = "Cloud";
                 break;
             case BlockType.Hide:
                 srend.sprite = onSprite;
+                gameObject.tag = "Cloud";
                 break;
             case BlockType.Grow:
+                gameObject.tag = "Cloud";
                 break;
             case BlockType.Move:
+                gameObject.tag = "Cloud";
                 break;
             case BlockType.Rotate:
+                gameObject.tag = "Cloud";
                 break;
             case BlockType.Command:
                 break;

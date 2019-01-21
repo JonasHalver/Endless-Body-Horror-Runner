@@ -188,16 +188,20 @@ public class CharacterControllerScript : MonoBehaviour {
         {
         if (isAirborne)
             {
-            if (collision.gameObject.tag == "Ground")
+            if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Cloud")
                 {
                 //isAirborne = false;
                 movementSpeed = msHolder / 2;
                 recentFlip = false;
                 anim.SetTrigger("landedTrigger");
-                if (onMovingPlatform)
+                if (collision.gameObject.tag == "Ground")
                     {
-                    MicrophoneScript.command = "Stop";
+                    if (onMovingPlatform)
+                        {
+                        MicrophoneScript.command = "Stop";
+                        }
                     }
+                
                 }
             }
 
@@ -280,10 +284,18 @@ public class CharacterControllerScript : MonoBehaviour {
             }
         if (other.tag == "Point")
             {
-            Destroy(other.gameObject);
-            aSource.Play();
-            GameManager.score++;
+            StartCoroutine(Point(other.gameObject));
             }
+        }
+
+    IEnumerator Point(GameObject point)
+        {
+        point.GetComponent<Animator>().SetTrigger("Collected");
+        point.GetComponent<Collider2D>().enabled = false;
+        aSource.Play();
+        yield return new WaitForSeconds(1f);
+        Destroy(point.gameObject);
+        GameManager.score++;
         }
 
     void NewZone()
