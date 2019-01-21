@@ -9,15 +9,21 @@ public class TutorialScript : MonoBehaviour {
     private float distance;
     private SpriteRenderer sRenderer, sRendererBubble;
     public Sprite bubbleSprite;
+    private Animator anim;
+    public float distanceMax = 7;
+    private bool isActive;
     //private string name;
 
 	// Use this for initialization
 	void Start () {
+        anim = GetComponent<Animator>();
         sRenderer = GetComponent<SpriteRenderer>();
         player = GameObject.FindGameObjectWithTag("Player");
         bubble = transform.Find("SpeechBubble").gameObject;
         sRendererBubble = bubble.GetComponent<SpriteRenderer>();
         txt = bubble.transform.Find("Text").GetComponent<TextMesh>();
+
+        StartCoroutine(Blink());
 
         //sRendererBubble.sprite = bubbleSprite;
 
@@ -53,19 +59,52 @@ public class TutorialScript : MonoBehaviour {
             distance = Vector3.Distance(transform.position, GameManager.player.transform.position);
             }
 
-        if (distance > 10f)
+        if (distance < distanceMax)
             {
-            sRenderer.color = new Color(1, 1, 1, 0);
-            bubble.SetActive(false);
-            }
-        else if (distance < 10f && distance > 5f)
-            {
-            sRenderer.color = new Color(1, 1, 1, 1 - (distance / 10));
+            StartCoroutine(Appear());
+            isActive = true;
             }
         else
             {
-            sRenderer.color = new Color(1, 1, 1, 1);
+            anim.SetBool("appear", false);
+            isActive = false;
+            bubble.SetActive(false);
+            }
+
+        //if (distance > 10f)
+        //    {
+        //    sRenderer.color = new Color(1, 1, 1, 0);
+        //    bubble.SetActive(false);
+        //    }
+        //else if (distance < 10f && distance > 5f)
+        //    {
+        //    sRenderer.color = new Color(1, 1, 1, 1 - (distance / 10));
+        //    }
+        //else
+        //    {
+        //    sRenderer.color = new Color(1, 1, 1, 1);
+        //    bubble.SetActive(true);
+        //    }
+        }
+
+    IEnumerator Appear()
+        {
+        anim.SetBool("appear", true);
+        yield return new WaitForSeconds(1f);
+        if (isActive)
+            {
             bubble.SetActive(true);
+            }
+        }
+
+    IEnumerator Blink()
+        {
+        while (true)
+            {
+            anim.SetInteger("blink", Random.Range(0, 5));
+            yield return new WaitForSeconds(0.1f);
+            anim.SetInteger("blink", 0);
+            yield return new WaitForSeconds(1f);
             }
         }
 }

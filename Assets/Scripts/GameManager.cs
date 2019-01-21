@@ -11,14 +11,20 @@ public class GameManager : MonoBehaviour {
     public static int checkpointIndex = 1, score = 0;
 
     public static float shoutThreshold = 0.75f, speakThreshold = 0.1f;
-    public static bool isShouting, isSpeaking;
+    public static bool isShouting, isSpeaking, hasWon;
 
     public static GameObject player;
 
     public Slider speakSlider, shoutSlider;
+
+    private AudioSource aSource;
+    public AudioClip menuMusic, gameMusic;
+
 	// Use this for initialization
 	void Start () {
+        aSource = GetComponent<AudioSource>();
         DontDestroyOnLoad(transform.gameObject);
+        aSource.PlayOneShot(menuMusic);
 	}
 	
 	// Update is called once per frame
@@ -76,10 +82,16 @@ public class GameManager : MonoBehaviour {
     void SceneLoaded(Scene scene, LoadSceneMode mod)
         {
         StartCoroutine(Spawner());
+        if (SceneManager.GetActiveScene().buildIndex != 0)
+            {
+            aSource.Stop();
+            aSource.PlayOneShot(gameMusic);
+            }
         }
 
     IEnumerator Spawner() {
         //Debug.Log(checkpointIndex);
+        hasWon = false;
         yield return new WaitForSeconds(0.1f);
         foreach (GameObject checkpoint in checkpoints)
             {

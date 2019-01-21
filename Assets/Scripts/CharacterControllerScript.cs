@@ -35,7 +35,7 @@ public class CharacterControllerScript : MonoBehaviour {
     private bool isDead;
 
     private AudioSource aSource;
-
+    public AudioClip coin, walk, jumpSound;
 
     void Start () {
         aSource = GetComponent<AudioSource>();
@@ -107,6 +107,8 @@ public class CharacterControllerScript : MonoBehaviour {
                         StartCoroutine(JumpDelay());
                         //isAirborne = true;
                         //Jump();
+                        aSource.Stop();
+                        aSource.PlayOneShot(jumpSound);
                         anim.SetTrigger("jumpTrigger");
                         }
                     }
@@ -116,10 +118,22 @@ public class CharacterControllerScript : MonoBehaviour {
                     movementSpeed = msHolder / 2;
                     anim.SetBool("isWalking", false);
                     anim.SetBool("isRunning", false);
+                    if (aSource.clip == walk)
+                        {
+                        aSource.clip = null;
+                        }
                     }
 
                 if (Input.GetAxis("Horizontal") != 0)
                     {
+                    if (aSource.clip != walk)
+                        {
+                        if (!isAirborne)
+                            {
+                            aSource.clip = walk;
+                            aSource.Play();
+                            }
+                        }
                     if (movementSpeed < msHolder)
                         {
                         anim.SetBool("isWalking", true);
@@ -194,6 +208,11 @@ public class CharacterControllerScript : MonoBehaviour {
                 movementSpeed = msHolder / 2;
                 recentFlip = false;
                 anim.SetTrigger("landedTrigger");
+                if (!aSource.isPlaying && Input.GetAxis("Horizontal") != 0)
+                    {
+                    aSource.clip = walk;
+                    aSource.Play();
+                    }
                 if (collision.gameObject.tag == "Ground")
                     {
                     if (onMovingPlatform)
@@ -292,7 +311,7 @@ public class CharacterControllerScript : MonoBehaviour {
         {
         point.GetComponent<Animator>().SetTrigger("Collected");
         point.GetComponent<Collider2D>().enabled = false;
-        aSource.Play();
+        aSource.PlayOneShot(coin);
         yield return new WaitForSeconds(1f);
         Destroy(point.gameObject);
         GameManager.score++;

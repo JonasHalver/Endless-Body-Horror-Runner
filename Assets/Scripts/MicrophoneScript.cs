@@ -99,6 +99,10 @@ public class MicrophoneScript : MonoBehaviour {
         {
             command = "Exit";
         });
+        keywords.Add("continue", () =>
+        {
+            command = "Continue";
+        });
         keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
         keywordRecognizer.OnPhraseRecognized += KeywordRecognizer_OnPhraseRecognized;
 

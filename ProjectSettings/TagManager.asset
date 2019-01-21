@@ -12,6 +12,7 @@ TagManager:
   - Boundary
   - Checkpoint
   - Cloud
+  - Confetti
   layers:
   - Default
   - TransparentFX

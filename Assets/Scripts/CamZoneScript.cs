@@ -42,7 +42,10 @@ public class CamZoneScript : MonoBehaviour {
                     {
                     b4.SetActive(true);
                     }
-                GameManager.checkpointIndex = transform.Find("Checkpoint").GetComponent<Checkpoint>().checkpointIndex;
+                if (!GameManager.hasWon)
+                    {
+                    GameManager.checkpointIndex = transform.Find("Checkpoint").GetComponent<Checkpoint>().checkpointIndex;
+                    }
                 }
             else
                 {
